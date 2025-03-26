@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SPONGE"
+version = "0.1.0"  
+authors = [
+  { name="liuyilei8969", email="ylliu8969@gmail.com" },
+]
+description = "SPlicing factOr activity calculatioN based on tarGet nEtwork"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://gitee.com/liuyilei8969/SPONGE/"
+Issues = "https://github.com/liuyilei8969/SPONGE/issues"
+
+[tool.hatch.metadata]
+include = ["src"]
