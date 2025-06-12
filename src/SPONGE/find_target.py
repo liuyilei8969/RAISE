@@ -256,7 +256,7 @@ def main():
             for key, value in params.items():
                 fout.write(f"{key}: {value}\n")
         features_df.sort_values(by='P(T|S, M, C)', ascending=False).to_csv(target_file, sep="\t", index=False)
-        print(f"Results saved to {args.output}")
+        print(f"Results saved to {output_dir}")
     except Exception as e:
         sys.exit(f"Error saving output: {e}")
 
