@@ -18,7 +18,8 @@ def parse_args():
     parser.add_argument('--clip_peaks', type=str, required=True, help="Input CLIP peaks BED file.")
     parser.add_argument('--ref_genome', type=str, required=True, help="Reference genome in FASTA format.")
     parser.add_argument('--rbp_motif', type=str, required=True, help="RBP motif file with two columns: RBP and motif.")
-    parser.add_argument('--rbp_name', type=str, required=True, help="Target RBP name.")
+    parser.add_argument('--cell_line', type=str, required=True, help="Cell line name, used to label the output file.")
+    parser.add_argument('--rbp', type=str, required=True, help="Target RBP name.")
     parser.add_argument('--output', type=str, required=True, help="Output directory.")
     parser.add_argument('--max_iter', type=int, default=1000, help="Maximum number of EM iterations.")
     parser.add_argument('--tol', type=float, default=1e-4, help="Convergence threshold for EM.")
@@ -243,10 +244,11 @@ def main():
     features_df, params = run_em(features_df, max_iter=args.max_iter, tol=args.tol)
 
     # Step 9: Save results
-    os.makedirs(args.output, exist_ok=True)
-    basename = os.path.basename(args.output.rstrip('/'))
-    param_file = os.path.join(args.output, basename + '_param.txt')
-    target_file = os.path.join(args.output, basename + '_target.txt')
+    basename = f"{args.cell_line}_{args.rbp}"
+    output_dir = os.path.join(args.output, basename)
+    os.makedirs(output_dir, exist_ok=True)
+    param_file = os.path.join(output_dir, basename + '_param.txt')
+    target_file = os.path.join(output_dir, basename + '_target.txt')
 
     try:
         with open(param_file, "w") as fout:
