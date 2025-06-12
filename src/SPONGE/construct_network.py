@@ -7,7 +7,6 @@ def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
     G = nx.DiGraph()
 
     for file_name in os.listdir(TARGET_dir):
-        print(file_name)
         cell_line, rbp = file_name.split('_')[:2]
         print(cell_line, rbp)
 
@@ -20,13 +19,13 @@ def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
 
         if os.path.exists(expr_file):
             expr_data = pd.read_csv(expr_file, sep='\t', header=None)
-            rbp_row = expr_data[expr_data.iloc[:, 1] == rbp]
+            rbp_row = expr_data[expr_data['gene.names'] == rbp]
 
             if not rbp_row.empty:
                 try:
-                    before = pd.to_numeric(rbp_row.iloc[0, 6], errors='coerce')
-                    after = pd.to_numeric(rbp_row.iloc[0, 7], errors='coerce')
-                    rbp_change_factor = before / after
+                    Ctrl = pd.to_numeric(rbp_row.iloc[0, 'Ctrl'], errors='coerce')
+                    KD = pd.to_numeric(rbp_row.iloc[0, 'KD'], errors='coerce')
+                    rbp_change_factor = Ctrl / KD
                     if pd.isna(rbp_change_factor) or rbp_change_factor == 0:
                         rbp_change_factor = 1
                 except Exception as e:
@@ -51,7 +50,7 @@ def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
                 if event_node not in G:
                     G.add_node(event_node, type='SplicingEvent', role='target', event_id=event_id)
 
-                adjusted_dpsi = -row['IncLevelDifference'] / rbp_change_factor
+                adjusted_dpsi = row['IncLevelDifference'] / rbp_change_factor
 
                 if G.has_edge(rbp_node, event_node):
                     current_impact = G[rbp_node][event_node]['weight']
