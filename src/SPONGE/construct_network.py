@@ -3,15 +3,15 @@ import pandas as pd
 import networkx as nx
 import argparse
 
-def build_splicing_network(CRAB_dir, threshold, DE_dir, output_file):
+def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
     G = nx.DiGraph()
 
-    for file_name in os.listdir(CRAB_dir):
+    for file_name in os.listdir(TARGET_dir):
         print(file_name)
         cell_line, rbp = file_name.split('_')[:2]
         print(cell_line, rbp)
 
-        target_path = os.path.join(CRAB_dir, file_name, file_name + '_target.txt')
+        target_path = os.path.join(TARGET_dir, file_name, file_name + '_target.txt')
         target_data = pd.read_csv(target_path, sep='\t', low_memory=False, header=0)
         target_data['P(T|S, M, C)'] = pd.to_numeric(target_data['P(T|S, M, C)'])
 
@@ -65,11 +65,11 @@ def build_splicing_network(CRAB_dir, threshold, DE_dir, output_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build a splicing regulatory network from CRAB outputs and differential expression data.")
-    parser.add_argument("--TargetResult", type=str, required=True, help="Path to the target identification results directory")
+    parser = argparse.ArgumentParser(description="Build a splicing regulatory network from find target outputs and differential expression data.")
+    parser.add_argument("--Target_dir", type=str, required=True, help="Path to the target identification results directory")
     parser.add_argument("--threshold", type=float, default=0.6, help="Threshold for conditional probability P(T|S, M, C) (default: 0.6)")
-    parser.add_argument("--DE", type=str, required=True, help="Path to the differential expression data directory")
+    parser.add_argument("--DE_dir", type=str, required=True, help="Path to the differential expression data directory")
     parser.add_argument("--output", type=str, required=True, help="Output file path for the network graph (GEXF format)")
 
     args = parser.parse_args()
-    build_splicing_network(args.CRAB, args.threshold, args.DE, args.output)
+    build_splicing_network(args.TARGET_dir, args.threshold, args.DE, args.output)
