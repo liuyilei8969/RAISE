@@ -3,5 +3,8 @@ python src/SPONGE/findtarget.py \
 --clip_peaks test/findtarget/input/QKI_CLIP_sig_peaks.bed \
 --ref_genome REF_GENOME \
 --rbp_motif data/Motif.txt \
+--cell_line HepG2 \
 --rbp_name QKI \
---output test/findtarget/output
+--output test/findtarget/output \
+--max_iter 1000 \
+--tol 1e-4
