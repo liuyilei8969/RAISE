@@ -176,7 +176,7 @@ def main():
 
     # Step 4: Load motif
     df_motif = pd.read_csv(args.rbp_motif, sep="\t", header=None, names=["RBP", "Motif"])
-    rbp_motifs = df_motif[df_motif["RBP"] == args.rbp_name]["Motif"].tolist()
+    rbp_motifs = df_motif[df_motif["RBP"] == args.rbp]["Motif"].tolist()
     if len(rbp_motifs) == 0:
         sys.exit("RBP not found in motif file.")
     print("Loaded RBP motif.")
