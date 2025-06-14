@@ -19,7 +19,7 @@ def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
 
         if os.path.exists(expr_file):
             expr_data = pd.read_csv(expr_file, sep='\t', header=None)
-            rbp_row = expr_data[expr_data['gene.names'] == rbp]
+            rbp_row = expr_data[expr_data['Gene'] == rbp]
 
             if not rbp_row.empty:
                 try:
