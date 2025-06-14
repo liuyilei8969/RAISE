@@ -9,6 +9,7 @@ def infer_rbp_activity(diff_as_path, network_path, output_path):
     ds = pd.read_csv(diff_as_path, sep='\t')
     ds['IncLevelDifference'] = ds['IncLevelDifference'] * 100  
     ds['uniqueID'] = (ds['geneSymbol'] + '_' + ds['exonStart_0base'].astype(str) + '_' + ds['exonEnd'].astype(str))
+    
     # Step 2: Filter significant splicing events
     filtered_ds = ds[(ds['PValue'] <= 0.05)]
 
