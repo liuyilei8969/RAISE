@@ -1,4 +1,4 @@
-python src/SPONGE/findtarget.py \
+python src/SPONGE/find_target.py \
 --rmats test/findtarget/input/shQKI_rmats.txt \
 --clip_peaks test/findtarget/input/QKI_CLIP_sig_peaks.bed \
 --ref_genome REF_GENOME \
