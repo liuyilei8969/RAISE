@@ -1,0 +1,3357 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-14">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="role" type="string" />
+      <attribute id="2" title="event_id" type="string" />
+    </attributes>
+    <nodes>
+      <node id="QKI" label="QKI">
+        <attvalues>
+          <attvalue for="0" value="RBP" />
+          <attvalue for="1" value="source" />
+        </attvalues>
+      </node>
+      <node id="GPR126_142704896_142704980" label="GPR126_142704896_142704980">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GPR126_142704896_142704980" />
+        </attvalues>
+      </node>
+      <node id="FAM208B_5762222_5762360" label="FAM208B_5762222_5762360">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FAM208B_5762222_5762360" />
+        </attvalues>
+      </node>
+      <node id="DOCK6_11339960_11340066" label="DOCK6_11339960_11340066">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DOCK6_11339960_11340066" />
+        </attvalues>
+      </node>
+      <node id="LPHN2_82452584_82452713" label="LPHN2_82452584_82452713">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LPHN2_82452584_82452713" />
+        </attvalues>
+      </node>
+      <node id="MAP4K4_102477286_102477448" label="MAP4K4_102477286_102477448">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAP4K4_102477286_102477448" />
+        </attvalues>
+      </node>
+      <node id="DOCK6_11339973_11340066" label="DOCK6_11339973_11340066">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DOCK6_11339973_11340066" />
+        </attvalues>
+      </node>
+      <node id="DEPDC1_68947728_68948580" label="DEPDC1_68947728_68948580">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DEPDC1_68947728_68948580" />
+        </attvalues>
+      </node>
+      <node id="PIEZO2_10708272_10708437" label="PIEZO2_10708272_10708437">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PIEZO2_10708272_10708437" />
+        </attvalues>
+      </node>
+      <node id="INF2_105181620_105181677" label="INF2_105181620_105181677">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="INF2_105181620_105181677" />
+        </attvalues>
+      </node>
+      <node id="GOLGA4_37402733_37402796" label="GOLGA4_37402733_37402796">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GOLGA4_37402733_37402796" />
+        </attvalues>
+      </node>
+      <node id="NHSL1_138763119_138763251" label="NHSL1_138763119_138763251">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NHSL1_138763119_138763251" />
+        </attvalues>
+      </node>
+      <node id="ADD3_111892062_111892257" label="ADD3_111892062_111892257">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ADD3_111892062_111892257" />
+        </attvalues>
+      </node>
+      <node id="BPTF_65871671_65871860" label="BPTF_65871671_65871860">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="BPTF_65871671_65871860" />
+        </attvalues>
+      </node>
+      <node id="SPAST_32323864_32323960" label="SPAST_32323864_32323960">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SPAST_32323864_32323960" />
+        </attvalues>
+      </node>
+      <node id="RPS24_79799961_79799983" label="RPS24_79799961_79799983">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPS24_79799961_79799983" />
+        </attvalues>
+      </node>
+      <node id="EHBP1_63215065_63215173" label="EHBP1_63215065_63215173">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EHBP1_63215065_63215173" />
+        </attvalues>
+      </node>
+      <node id="MBNL2_98017389_98017425" label="MBNL2_98017389_98017425">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MBNL2_98017389_98017425" />
+        </attvalues>
+      </node>
+      <node id="DENND4C_19336701_19336830" label="DENND4C_19336701_19336830">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DENND4C_19336701_19336830" />
+        </attvalues>
+      </node>
+      <node id="EPB41L2_131199243_131199390" label="EPB41L2_131199243_131199390">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EPB41L2_131199243_131199390" />
+        </attvalues>
+      </node>
+      <node id="RPS24_79799958_79799983" label="RPS24_79799958_79799983">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPS24_79799958_79799983" />
+        </attvalues>
+      </node>
+      <node id="UBA1_47057925_47058027" label="UBA1_47057925_47058027">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UBA1_47057925_47058027" />
+        </attvalues>
+      </node>
+      <node id="VPS29_110937261_110937351" label="VPS29_110937261_110937351">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="VPS29_110937261_110937351" />
+        </attvalues>
+      </node>
+      <node id="SEPT6_118759297_118759342" label="SEPT6_118759297_118759342">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEPT6_118759297_118759342" />
+        </attvalues>
+      </node>
+      <node id="OSBPL9_52221991_52222030" label="OSBPL9_52221991_52222030">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="OSBPL9_52221991_52222030" />
+        </attvalues>
+      </node>
+      <node id="ADD3_111892062_111892158" label="ADD3_111892062_111892158">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ADD3_111892062_111892158" />
+        </attvalues>
+      </node>
+      <node id="SLK_105770573_105770666" label="SLK_105770573_105770666">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLK_105770573_105770666" />
+        </attvalues>
+      </node>
+      <node id="DENND4C_19336683_19336830" label="DENND4C_19336683_19336830">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DENND4C_19336683_19336830" />
+        </attvalues>
+      </node>
+      <node id="FEZ2_36787927_36788008" label="FEZ2_36787927_36788008">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FEZ2_36787927_36788008" />
+        </attvalues>
+      </node>
+      <node id="GGCX_85779538_85779678" label="GGCX_85779538_85779678">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GGCX_85779538_85779678" />
+        </attvalues>
+      </node>
+      <node id="ESYT2_158545471_158545534" label="ESYT2_158545471_158545534">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ESYT2_158545471_158545534" />
+        </attvalues>
+      </node>
+      <node id="PHF3_64388728_64388921" label="PHF3_64388728_64388921">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PHF3_64388728_64388921" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187791_124187832" label="PLEKHA1_124187791_124187832">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187791_124187832" />
+        </attvalues>
+      </node>
+      <node id="GGCX_85779538_85779690" label="GGCX_85779538_85779690">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GGCX_85779538_85779690" />
+        </attvalues>
+      </node>
+      <node id="FN1_216257800_216257926" label="FN1_216257800_216257926">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FN1_216257800_216257926" />
+        </attvalues>
+      </node>
+      <node id="FGFR1_38287199_38287466" label="FGFR1_38287199_38287466">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FGFR1_38287199_38287466" />
+        </attvalues>
+      </node>
+      <node id="DOCK7_63010617_63010710" label="DOCK7_63010617_63010710">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DOCK7_63010617_63010710" />
+        </attvalues>
+      </node>
+      <node id="SEPP1_42804757_42804902" label="SEPP1_42804757_42804902">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEPP1_42804757_42804902" />
+        </attvalues>
+      </node>
+      <node id="SEC31A_83782783_83782861" label="SEC31A_83782783_83782861">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEC31A_83782783_83782861" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187791_124187862" label="PLEKHA1_124187791_124187862">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187791_124187862" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187756_124187832" label="PLEKHA1_124187756_124187832">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187756_124187832" />
+        </attvalues>
+      </node>
+      <node id="HNRNPC_21730759_21730927" label="HNRNPC_21730759_21730927">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HNRNPC_21730759_21730927" />
+        </attvalues>
+      </node>
+      <node id="ACSL4_108934231_108934360" label="ACSL4_108934231_108934360">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACSL4_108934231_108934360" />
+        </attvalues>
+      </node>
+      <node id="HNRNPH1_179046269_179046408" label="HNRNPH1_179046269_179046408">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HNRNPH1_179046269_179046408" />
+        </attvalues>
+      </node>
+      <node id="RAB12_8625798_8625992" label="RAB12_8625798_8625992">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RAB12_8625798_8625992" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187791_124187936" label="PLEKHA1_124187791_124187936">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187791_124187936" />
+        </attvalues>
+      </node>
+      <node id="INCENP_61908971_61908983" label="INCENP_61908971_61908983">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="INCENP_61908971_61908983" />
+        </attvalues>
+      </node>
+      <node id="CYFIP1_22956038_22956186" label="CYFIP1_22956038_22956186">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CYFIP1_22956038_22956186" />
+        </attvalues>
+      </node>
+      <node id="MARK2_63671457_63671619" label="MARK2_63671457_63671619">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MARK2_63671457_63671619" />
+        </attvalues>
+      </node>
+      <node id="TMEM230_5092145_5092251" label="TMEM230_5092145_5092251">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TMEM230_5092145_5092251" />
+        </attvalues>
+      </node>
+      <node id="WDFY3_85729486_85729570" label="WDFY3_85729486_85729570">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="WDFY3_85729486_85729570" />
+        </attvalues>
+      </node>
+      <node id="FGFR1_38286764_38286908" label="FGFR1_38286764_38286908">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FGFR1_38286764_38286908" />
+        </attvalues>
+      </node>
+      <node id="VPS29_110937339_110937351" label="VPS29_110937339_110937351">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="VPS29_110937339_110937351" />
+        </attvalues>
+      </node>
+      <node id="RNMT_13730625_13730754" label="RNMT_13730625_13730754">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RNMT_13730625_13730754" />
+        </attvalues>
+      </node>
+      <node id="DST_56333779_56333797" label="DST_56333779_56333797">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DST_56333779_56333797" />
+        </attvalues>
+      </node>
+      <node id="COBLL1_165559613_165559730" label="COBLL1_165559613_165559730">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="COBLL1_165559613_165559730" />
+        </attvalues>
+      </node>
+      <node id="NAV2_20071381_20071447" label="NAV2_20071381_20071447">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAV2_20071381_20071447" />
+        </attvalues>
+      </node>
+      <node id="COBLL1_165559613_165559748" label="COBLL1_165559613_165559748">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="COBLL1_165559613_165559748" />
+        </attvalues>
+      </node>
+      <node id="TCF12_57544618_57544690" label="TCF12_57544618_57544690">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TCF12_57544618_57544690" />
+        </attvalues>
+      </node>
+      <node id="A1CF_52623792_52623840" label="A1CF_52623792_52623840">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="A1CF_52623792_52623840" />
+        </attvalues>
+      </node>
+      <node id="GCKR_27728584_27728703" label="GCKR_27728584_27728703">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GCKR_27728584_27728703" />
+        </attvalues>
+      </node>
+      <node id="CTNND1_57583386_57583473" label="CTNND1_57583386_57583473">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTNND1_57583386_57583473" />
+        </attvalues>
+      </node>
+      <node id="SF3B1_198283619_198283675" label="SF3B1_198283619_198283675">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SF3B1_198283619_198283675" />
+        </attvalues>
+      </node>
+      <node id="ARGLU1_107209906_107209964" label="ARGLU1_107209906_107209964">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ARGLU1_107209906_107209964" />
+        </attvalues>
+      </node>
+      <node id="SYNC_33149610_33149690" label="SYNC_33149610_33149690">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SYNC_33149610_33149690" />
+        </attvalues>
+      </node>
+      <node id="FGFR1OP2_27113447_27113561" label="FGFR1OP2_27113447_27113561">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FGFR1OP2_27113447_27113561" />
+        </attvalues>
+      </node>
+      <node id="SBF1_50895462_50895540" label="SBF1_50895462_50895540">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SBF1_50895462_50895540" />
+        </attvalues>
+      </node>
+      <node id="UTRN_145148483_145148522" label="UTRN_145148483_145148522">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UTRN_145148483_145148522" />
+        </attvalues>
+      </node>
+      <node id="LRRFIP2_37132957_37133029" label="LRRFIP2_37132957_37133029">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LRRFIP2_37132957_37133029" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187756_124187936" label="PLEKHA1_124187756_124187936">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187756_124187936" />
+        </attvalues>
+      </node>
+      <node id="PHKB_47497792_47497904" label="PHKB_47497792_47497904">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PHKB_47497792_47497904" />
+        </attvalues>
+      </node>
+      <node id="PLEKHA1_124187756_124187862" label="PLEKHA1_124187756_124187862">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLEKHA1_124187756_124187862" />
+        </attvalues>
+      </node>
+      <node id="PICALM_85701292_85701442" label="PICALM_85701292_85701442">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PICALM_85701292_85701442" />
+        </attvalues>
+      </node>
+      <node id="DOCK6_11342860_11342965" label="DOCK6_11342860_11342965">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DOCK6_11342860_11342965" />
+        </attvalues>
+      </node>
+      <node id="NAV2_20104137_20104146" label="NAV2_20104137_20104146">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAV2_20104137_20104146" />
+        </attvalues>
+      </node>
+      <node id="PHKB_47497809_47497904" label="PHKB_47497809_47497904">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PHKB_47497809_47497904" />
+        </attvalues>
+      </node>
+      <node id="HMGN1_40717755_40719218" label="HMGN1_40717755_40719218">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HMGN1_40717755_40719218" />
+        </attvalues>
+      </node>
+      <node id="C14orf37_58759783_58759856" label="C14orf37_58759783_58759856">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="C14orf37_58759783_58759856" />
+        </attvalues>
+      </node>
+      <node id="RALGAPA1_36017713_36017744" label="RALGAPA1_36017713_36017744">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RALGAPA1_36017713_36017744" />
+        </attvalues>
+      </node>
+      <node id="PICALM_85701292_85701421" label="PICALM_85701292_85701421">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PICALM_85701292_85701421" />
+        </attvalues>
+      </node>
+      <node id="DST_56327843_56327954" label="DST_56327843_56327954">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DST_56327843_56327954" />
+        </attvalues>
+      </node>
+      <node id="SNRNP70_49605370_49606844" label="SNRNP70_49605370_49606844">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SNRNP70_49605370_49606844" />
+        </attvalues>
+      </node>
+      <node id="PARD3_34625126_34625171" label="PARD3_34625126_34625171">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PARD3_34625126_34625171" />
+        </attvalues>
+      </node>
+      <node id="ATP5J_27106643_27106709" label="ATP5J_27106643_27106709">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ATP5J_27106643_27106709" />
+        </attvalues>
+      </node>
+      <node id="UAP1_162562521_162562572" label="UAP1_162562521_162562572">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UAP1_162562521_162562572" />
+        </attvalues>
+      </node>
+      <node id="ATP5J_27106643_27106686" label="ATP5J_27106643_27106686">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ATP5J_27106643_27106686" />
+        </attvalues>
+      </node>
+      <node id="RBM39_34301623_34301779" label="RBM39_34301623_34301779">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RBM39_34301623_34301779" />
+        </attvalues>
+      </node>
+      <node id="RBM39_34301626_34301779" label="RBM39_34301626_34301779">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RBM39_34301626_34301779" />
+        </attvalues>
+      </node>
+      <node id="WNK1_989886_990165" label="WNK1_989886_990165">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="WNK1_989886_990165" />
+        </attvalues>
+      </node>
+      <node id="TMEM59_54512939_54513045" label="TMEM59_54512939_54513045">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TMEM59_54512939_54513045" />
+        </attvalues>
+      </node>
+      <node id="SORBS2_186605907_186605996" label="SORBS2_186605907_186605996">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS2_186605907_186605996" />
+        </attvalues>
+      </node>
+      <node id="SRSF11_70697541_70697658" label="SRSF11_70697541_70697658">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF11_70697541_70697658" />
+        </attvalues>
+      </node>
+      <node id="ERC1_1221380_1221473" label="ERC1_1221380_1221473">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ERC1_1221380_1221473" />
+        </attvalues>
+      </node>
+      <node id="SMG7_183516237_183516387" label="SMG7_183516237_183516387">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SMG7_183516237_183516387" />
+        </attvalues>
+      </node>
+      <node id="RAI14_34813678_34813765" label="RAI14_34813678_34813765">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RAI14_34813678_34813765" />
+        </attvalues>
+      </node>
+      <node id="SEC16A_139339503_139339563" label="SEC16A_139339503_139339563">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEC16A_139339503_139339563" />
+        </attvalues>
+      </node>
+      <node id="SORBS2_186605907_186606000" label="SORBS2_186605907_186606000">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS2_186605907_186606000" />
+        </attvalues>
+      </node>
+      <node id="FN1_216257653_216257926" label="FN1_216257653_216257926">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FN1_216257653_216257926" />
+        </attvalues>
+      </node>
+      <node id="STX2_131280539_131280665" label="STX2_131280539_131280665">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="STX2_131280539_131280665" />
+        </attvalues>
+      </node>
+      <node id="NDEL1_8366637_8366672" label="NDEL1_8366637_8366672">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NDEL1_8366637_8366672" />
+        </attvalues>
+      </node>
+      <node id="GGCX_85779607_85779690" label="GGCX_85779607_85779690">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GGCX_85779607_85779690" />
+        </attvalues>
+      </node>
+      <node id="GIT2_110383064_110383154" label="GIT2_110383064_110383154">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GIT2_110383064_110383154" />
+        </attvalues>
+      </node>
+      <node id="FN1_216245533_216245803" label="FN1_216245533_216245803">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FN1_216245533_216245803" />
+        </attvalues>
+      </node>
+      <node id="SEPT6_118759297_118759359" label="SEPT6_118759297_118759359">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEPT6_118759297_118759359" />
+        </attvalues>
+      </node>
+      <node id="FNBP1_132686122_132686275" label="FNBP1_132686122_132686275">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FNBP1_132686122_132686275" />
+        </attvalues>
+      </node>
+      <node id="GLS_191777918_191778090" label="GLS_191777918_191778090">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GLS_191777918_191778090" />
+        </attvalues>
+      </node>
+      <node id="CAST_96062497_96062563" label="CAST_96062497_96062563">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CAST_96062497_96062563" />
+        </attvalues>
+      </node>
+      <node id="CAST_96062457_96062563" label="CAST_96062457_96062563">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CAST_96062457_96062563" />
+        </attvalues>
+      </node>
+      <node id="FOXN3_89656730_89656793" label="FOXN3_89656730_89656793">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FOXN3_89656730_89656793" />
+        </attvalues>
+      </node>
+      <node id="A1CF_52622648_52622741" label="A1CF_52622648_52622741">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="A1CF_52622648_52622741" />
+        </attvalues>
+      </node>
+      <node id="FOXN3_89656727_89656793" label="FOXN3_89656727_89656793">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FOXN3_89656727_89656793" />
+        </attvalues>
+      </node>
+      <node id="UAP1_162562524_162562572" label="UAP1_162562524_162562572">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UAP1_162562524_162562572" />
+        </attvalues>
+      </node>
+      <node id="FN1_216236975_216237023" label="FN1_216236975_216237023">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FN1_216236975_216237023" />
+        </attvalues>
+      </node>
+      <node id="NF1_29579955_29580018" label="NF1_29579955_29580018">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NF1_29579955_29580018" />
+        </attvalues>
+      </node>
+      <node id="REPS1_139247537_139247615" label="REPS1_139247537_139247615">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="REPS1_139247537_139247615" />
+        </attvalues>
+      </node>
+      <node id="SEPP1_42804757_42804813" label="SEPP1_42804757_42804813">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SEPP1_42804757_42804813" />
+        </attvalues>
+      </node>
+      <node id="MAGI1_65361419_65361587" label="MAGI1_65361419_65361587">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAGI1_65361419_65361587" />
+        </attvalues>
+      </node>
+      <node id="MLLT4_168314082_168314103" label="MLLT4_168314082_168314103">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MLLT4_168314082_168314103" />
+        </attvalues>
+      </node>
+      <node id="MAGI1_65361419_65361620" label="MAGI1_65361419_65361620">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAGI1_65361419_65361620" />
+        </attvalues>
+      </node>
+      <node id="MEAF6_37962147_37962205" label="MEAF6_37962147_37962205">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MEAF6_37962147_37962205" />
+        </attvalues>
+      </node>
+      <node id="SREK1_65451892_65454760" label="SREK1_65451892_65454760">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SREK1_65451892_65454760" />
+        </attvalues>
+      </node>
+      <node id="NCOA4_51576310_51576499" label="NCOA4_51576310_51576499">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NCOA4_51576310_51576499" />
+        </attvalues>
+      </node>
+      <node id="MLLT10_21840744_21840850" label="MLLT10_21840744_21840850">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MLLT10_21840744_21840850" />
+        </attvalues>
+      </node>
+      <node id="GSN_124062342_124062404" label="GSN_124062342_124062404">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GSN_124062342_124062404" />
+        </attvalues>
+      </node>
+      <node id="MLLT4_168294541_168294586" label="MLLT4_168294541_168294586">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MLLT4_168294541_168294586" />
+        </attvalues>
+      </node>
+      <node id="MAGI1_65361419_65361623" label="MAGI1_65361419_65361623">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAGI1_65361419_65361623" />
+        </attvalues>
+      </node>
+      <node id="NCOA4_51576366_51576499" label="NCOA4_51576366_51576499">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NCOA4_51576366_51576499" />
+        </attvalues>
+      </node>
+      <node id="ANGPTL1_178838248_178838358" label="ANGPTL1_178838248_178838358">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ANGPTL1_178838248_178838358" />
+        </attvalues>
+      </node>
+      <node id="SRSF11_70696777_70696886" label="SRSF11_70696777_70696886">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF11_70696777_70696886" />
+        </attvalues>
+      </node>
+      <node id="TIAF1_27412621_27412666" label="TIAF1_27412621_27412666">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TIAF1_27412621_27412666" />
+        </attvalues>
+      </node>
+      <node id="DHRS2_24108035_24108213" label="DHRS2_24108035_24108213">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DHRS2_24108035_24108213" />
+        </attvalues>
+      </node>
+      <node id="NF2_30079008_30079053" label="NF2_30079008_30079053">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NF2_30079008_30079053" />
+        </attvalues>
+      </node>
+      <node id="PRPF40A_153535569_153535623" label="PRPF40A_153535569_153535623">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PRPF40A_153535569_153535623" />
+        </attvalues>
+      </node>
+      <node id="SUPT20H_37584688_37584792" label="SUPT20H_37584688_37584792">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SUPT20H_37584688_37584792" />
+        </attvalues>
+      </node>
+      <node id="MST1P2_16974278_16974447" label="MST1P2_16974278_16974447">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MST1P2_16974278_16974447" />
+        </attvalues>
+      </node>
+      <node id="TIAL1_121339982_121340050" label="TIAL1_121339982_121340050">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TIAL1_121339982_121340050" />
+        </attvalues>
+      </node>
+      <node id="HSD17B7P2_38650207_38650250" label="HSD17B7P2_38650207_38650250">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HSD17B7P2_38650207_38650250" />
+        </attvalues>
+      </node>
+      <node id="HMGN1_40717755_40717884" label="HMGN1_40717755_40717884">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HMGN1_40717755_40717884" />
+        </attvalues>
+      </node>
+      <node id="GSN_124062333_124062404" label="GSN_124062333_124062404">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GSN_124062333_124062404" />
+        </attvalues>
+      </node>
+      <node id="PREPL_44586635_44586889" label="PREPL_44586635_44586889">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PREPL_44586635_44586889" />
+        </attvalues>
+      </node>
+      <node id="A1CF_52622635_52622741" label="A1CF_52622635_52622741">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="A1CF_52622635_52622741" />
+        </attvalues>
+      </node>
+      <node id="SRRT_100480385_100480711" label="SRRT_100480385_100480711">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRRT_100480385_100480711" />
+        </attvalues>
+      </node>
+      <node id="PREPL_44586635_44586735" label="PREPL_44586635_44586735">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PREPL_44586635_44586735" />
+        </attvalues>
+      </node>
+      <node id="AKAP9_91671359_91671500" label="AKAP9_91671359_91671500">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AKAP9_91671359_91671500" />
+        </attvalues>
+      </node>
+      <node id="ARVCF_19958738_19958858" label="ARVCF_19958738_19958858">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ARVCF_19958738_19958858" />
+        </attvalues>
+      </node>
+      <node id="KIAA1109_123247009_123247072" label="KIAA1109_123247009_123247072">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KIAA1109_123247009_123247072" />
+        </attvalues>
+      </node>
+      <node id="ACACA_35685777_35685925" label="ACACA_35685777_35685925">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACACA_35685777_35685925" />
+        </attvalues>
+      </node>
+      <node id="PICALM_85689112_85689136" label="PICALM_85689112_85689136">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PICALM_85689112_85689136" />
+        </attvalues>
+      </node>
+      <node id="FMNL2_153501947_153501994" label="FMNL2_153501947_153501994">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FMNL2_153501947_153501994" />
+        </attvalues>
+      </node>
+      <node id="CASK_41414852_41414888" label="CASK_41414852_41414888">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CASK_41414852_41414888" />
+        </attvalues>
+      </node>
+      <node id="SORBS2_186572937_186572982" label="SORBS2_186572937_186572982">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS2_186572937_186572982" />
+        </attvalues>
+      </node>
+      <node id="ACIN1_23536522_23537880" label="ACIN1_23536522_23537880">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACIN1_23536522_23537880" />
+        </attvalues>
+      </node>
+      <node id="PREPL_44586635_44587177" label="PREPL_44586635_44587177">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PREPL_44586635_44587177" />
+        </attvalues>
+      </node>
+      <node id="PRMT2_48056350_48056459" label="PRMT2_48056350_48056459">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PRMT2_48056350_48056459" />
+        </attvalues>
+      </node>
+      <node id="LPIN1_11916211_11916319" label="LPIN1_11916211_11916319">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LPIN1_11916211_11916319" />
+        </attvalues>
+      </node>
+      <node id="LRCH3_197585704_197585776" label="LRCH3_197585704_197585776">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LRCH3_197585704_197585776" />
+        </attvalues>
+      </node>
+      <node id="CLIP1_122831921_122832026" label="CLIP1_122831921_122832026">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CLIP1_122831921_122832026" />
+        </attvalues>
+      </node>
+      <node id="HNRNPH1_179046269_179046361" label="HNRNPH1_179046269_179046361">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HNRNPH1_179046269_179046361" />
+        </attvalues>
+      </node>
+      <node id="SERPINA1_94849340_94849578" label="SERPINA1_94849340_94849578">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SERPINA1_94849340_94849578" />
+        </attvalues>
+      </node>
+      <node id="RPP40_5000796_5000865" label="RPP40_5000796_5000865">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPP40_5000796_5000865" />
+        </attvalues>
+      </node>
+      <node id="ANKRD10_111552876_111553041" label="ANKRD10_111552876_111553041">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ANKRD10_111552876_111553041" />
+        </attvalues>
+      </node>
+      <node id="PRMT2_48056314_48056459" label="PRMT2_48056314_48056459">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PRMT2_48056314_48056459" />
+        </attvalues>
+      </node>
+      <node id="RBM5_50141680_50141741" label="RBM5_50141680_50141741">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RBM5_50141680_50141741" />
+        </attvalues>
+      </node>
+      <node id="NF2_30079008_30079068" label="NF2_30079008_30079068">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NF2_30079008_30079068" />
+        </attvalues>
+      </node>
+      <node id="DCAF6_167992225_167992285" label="DCAF6_167992225_167992285">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DCAF6_167992225_167992285" />
+        </attvalues>
+      </node>
+      <node id="MYO1B_192267357_192267444" label="MYO1B_192267357_192267444">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MYO1B_192267357_192267444" />
+        </attvalues>
+      </node>
+      <node id="SRSF1_56082774_56082978" label="SRSF1_56082774_56082978">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF1_56082774_56082978" />
+        </attvalues>
+      </node>
+      <node id="ANKRD10_111552876_111553008" label="ANKRD10_111552876_111553008">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ANKRD10_111552876_111553008" />
+        </attvalues>
+      </node>
+      <node id="TBCK_107115874_107115911" label="TBCK_107115874_107115911">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TBCK_107115874_107115911" />
+        </attvalues>
+      </node>
+      <node id="ATF2_175986171_175986268" label="ATF2_175986171_175986268">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ATF2_175986171_175986268" />
+        </attvalues>
+      </node>
+      <node id="NUMB_73783097_73783130" label="NUMB_73783097_73783130">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NUMB_73783097_73783130" />
+        </attvalues>
+      </node>
+      <node id="TMPO_98938728_98938839" label="TMPO_98938728_98938839">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TMPO_98938728_98938839" />
+        </attvalues>
+      </node>
+      <node id="ORC3_88326031_88326145" label="ORC3_88326031_88326145">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ORC3_88326031_88326145" />
+        </attvalues>
+      </node>
+      <node id="STRN3_31398406_31398517" label="STRN3_31398406_31398517">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="STRN3_31398406_31398517" />
+        </attvalues>
+      </node>
+      <node id="NOP58_203164808_203164860" label="NOP58_203164808_203164860">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NOP58_203164808_203164860" />
+        </attvalues>
+      </node>
+      <node id="ACOT9_23752457_23752484" label="ACOT9_23752457_23752484">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACOT9_23752457_23752484" />
+        </attvalues>
+      </node>
+      <node id="KTN1_56139889_56139973" label="KTN1_56139889_56139973">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KTN1_56139889_56139973" />
+        </attvalues>
+      </node>
+      <node id="RP11-206L10.11_783033_783186" label="RP11-206L10.11_783033_783186">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RP11-206L10.11_783033_783186" />
+        </attvalues>
+      </node>
+      <node id="SRSF1_56082758_56082978" label="SRSF1_56082758_56082978">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF1_56082758_56082978" />
+        </attvalues>
+      </node>
+      <node id="RPL30_99057054_99057221" label="RPL30_99057054_99057221">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPL30_99057054_99057221" />
+        </attvalues>
+      </node>
+      <node id="FARS2_5368782_5369415" label="FARS2_5368782_5369415">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FARS2_5368782_5369415" />
+        </attvalues>
+      </node>
+      <node id="AP1G2_24035770_24035987" label="AP1G2_24035770_24035987">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AP1G2_24035770_24035987" />
+        </attvalues>
+      </node>
+      <node id="C4BPB_207269866_207269960" label="C4BPB_207269866_207269960">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="C4BPB_207269866_207269960" />
+        </attvalues>
+      </node>
+      <node id="DYNC1I2_172569276_172569336" label="DYNC1I2_172569276_172569336">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DYNC1I2_172569276_172569336" />
+        </attvalues>
+      </node>
+      <node id="FMNL2_153501947_153502041" label="FMNL2_153501947_153502041">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FMNL2_153501947_153502041" />
+        </attvalues>
+      </node>
+      <node id="VPS29_110936624_110936664" label="VPS29_110936624_110936664">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="VPS29_110936624_110936664" />
+        </attvalues>
+      </node>
+      <node id="GK_30686128_30686235" label="GK_30686128_30686235">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GK_30686128_30686235" />
+        </attvalues>
+      </node>
+      <node id="CARKD_111274562_111274713" label="CARKD_111274562_111274713">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CARKD_111274562_111274713" />
+        </attvalues>
+      </node>
+      <node id="AP1G2_24035726_24035895" label="AP1G2_24035726_24035895">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AP1G2_24035726_24035895" />
+        </attvalues>
+      </node>
+      <node id="SLC44A1_108098847_108098922" label="SLC44A1_108098847_108098922">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLC44A1_108098847_108098922" />
+        </attvalues>
+      </node>
+      <node id="REPS1_139247537_139247618" label="REPS1_139247537_139247618">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="REPS1_139247537_139247618" />
+        </attvalues>
+      </node>
+      <node id="GK_30686141_30686235" label="GK_30686141_30686235">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GK_30686141_30686235" />
+        </attvalues>
+      </node>
+      <node id="CLTB_175823479_175823533" label="CLTB_175823479_175823533">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CLTB_175823479_175823533" />
+        </attvalues>
+      </node>
+      <node id="PUM2_20526021_20526146" label="PUM2_20526021_20526146">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PUM2_20526021_20526146" />
+        </attvalues>
+      </node>
+      <node id="C2CD5_22671973_22672173" label="C2CD5_22671973_22672173">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="C2CD5_22671973_22672173" />
+        </attvalues>
+      </node>
+      <node id="PHKB_47667809_47667892" label="PHKB_47667809_47667892">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PHKB_47667809_47667892" />
+        </attvalues>
+      </node>
+      <node id="AP1G2_24035770_24035895" label="AP1G2_24035770_24035895">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AP1G2_24035770_24035895" />
+        </attvalues>
+      </node>
+      <node id="ACSS3_81540080_81540131" label="ACSS3_81540080_81540131">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACSS3_81540080_81540131" />
+        </attvalues>
+      </node>
+      <node id="ACN9_96765699_96765779" label="ACN9_96765699_96765779">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACN9_96765699_96765779" />
+        </attvalues>
+      </node>
+      <node id="AKR7A2_19633807_19633904" label="AKR7A2_19633807_19633904">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AKR7A2_19633807_19633904" />
+        </attvalues>
+      </node>
+      <node id="KAT2A_40271071_40271191" label="KAT2A_40271071_40271191">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KAT2A_40271071_40271191" />
+        </attvalues>
+      </node>
+      <node id="D2HGDH_242688279_242689344" label="D2HGDH_242688279_242689344">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="D2HGDH_242688279_242689344" />
+        </attvalues>
+      </node>
+      <node id="ZNF140_133677572_133677639" label="ZNF140_133677572_133677639">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZNF140_133677572_133677639" />
+        </attvalues>
+      </node>
+      <node id="ERBB2IP_65364704_65364848" label="ERBB2IP_65364704_65364848">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ERBB2IP_65364704_65364848" />
+        </attvalues>
+      </node>
+      <node id="A1CF_52622648_52622774" label="A1CF_52622648_52622774">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="A1CF_52622648_52622774" />
+        </attvalues>
+      </node>
+      <node id="ARHGAP17_24939004_24939053" label="ARHGAP17_24939004_24939053">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ARHGAP17_24939004_24939053" />
+        </attvalues>
+      </node>
+      <node id="SRSF1_56082758_56082961" label="SRSF1_56082758_56082961">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF1_56082758_56082961" />
+        </attvalues>
+      </node>
+      <node id="SRSF1_56082774_56082961" label="SRSF1_56082774_56082961">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SRSF1_56082774_56082961" />
+        </attvalues>
+      </node>
+      <node id="SERPINA11_94912667_94912785" label="SERPINA11_94912667_94912785">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SERPINA11_94912667_94912785" />
+        </attvalues>
+      </node>
+      <node id="SERPINA11_94912667_94912789" label="SERPINA11_94912667_94912789">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SERPINA11_94912667_94912789" />
+        </attvalues>
+      </node>
+      <node id="SERPINA11_94912667_94912861" label="SERPINA11_94912667_94912861">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SERPINA11_94912667_94912861" />
+        </attvalues>
+      </node>
+      <node id="STXBP5_147660314_147660374" label="STXBP5_147660314_147660374">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="STXBP5_147660314_147660374" />
+        </attvalues>
+      </node>
+      <node id="LMO7_76429395_76429504" label="LMO7_76429395_76429504">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LMO7_76429395_76429504" />
+        </attvalues>
+      </node>
+      <node id="USO1_76716488_76716509" label="USO1_76716488_76716509">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="USO1_76716488_76716509" />
+        </attvalues>
+      </node>
+      <node id="APP_27372329_27372497" label="APP_27372329_27372497">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="APP_27372329_27372497" />
+        </attvalues>
+      </node>
+      <node id="EVL_100604076_100604139" label="EVL_100604076_100604139">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EVL_100604076_100604139" />
+        </attvalues>
+      </node>
+      <node id="GCKR_27720428_27720497" label="GCKR_27720428_27720497">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GCKR_27720428_27720497" />
+        </attvalues>
+      </node>
+      <node id="EIF4G2_10823207_10823294" label="EIF4G2_10823207_10823294">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EIF4G2_10823207_10823294" />
+        </attvalues>
+      </node>
+      <node id="ARSE_2876314_2876476" label="ARSE_2876314_2876476">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ARSE_2876314_2876476" />
+        </attvalues>
+      </node>
+      <node id="SORBS2_186515039_186515089" label="SORBS2_186515039_186515089">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS2_186515039_186515089" />
+        </attvalues>
+      </node>
+      <node id="RTN4_55255299_55255356" label="RTN4_55255299_55255356">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RTN4_55255299_55255356" />
+        </attvalues>
+      </node>
+      <node id="BTD_15643680_15643817" label="BTD_15643680_15643817">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="BTD_15643680_15643817" />
+        </attvalues>
+      </node>
+      <node id="TMEM39A_119154601_119154782" label="TMEM39A_119154601_119154782">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TMEM39A_119154601_119154782" />
+        </attvalues>
+      </node>
+      <node id="CLSTN1_9816538_9816568" label="CLSTN1_9816538_9816568">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CLSTN1_9816538_9816568" />
+        </attvalues>
+      </node>
+      <node id="SERPINA11_94912667_94912941" label="SERPINA11_94912667_94912941">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SERPINA11_94912667_94912941" />
+        </attvalues>
+      </node>
+      <node id="CCNY_35814891_35814927" label="CCNY_35814891_35814927">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CCNY_35814891_35814927" />
+        </attvalues>
+      </node>
+      <node id="POFUT1_30797873_30797995" label="POFUT1_30797873_30797995">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="POFUT1_30797873_30797995" />
+        </attvalues>
+      </node>
+      <node id="GAS5_173833621_173833644" label="GAS5_173833621_173833644">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GAS5_173833621_173833644" />
+        </attvalues>
+      </node>
+      <node id="PTPRF_44069281_44069860" label="PTPRF_44069281_44069860">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PTPRF_44069281_44069860" />
+        </attvalues>
+      </node>
+      <node id="EIF4G2_10823207_10823321" label="EIF4G2_10823207_10823321">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EIF4G2_10823207_10823321" />
+        </attvalues>
+      </node>
+      <node id="PIEZO2_10735229_10735328" label="PIEZO2_10735229_10735328">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PIEZO2_10735229_10735328" />
+        </attvalues>
+      </node>
+      <node id="NAALAD2_89892406_89892505" label="NAALAD2_89892406_89892505">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAALAD2_89892406_89892505" />
+        </attvalues>
+      </node>
+      <node id="ABLIM1_116207638_116207779" label="ABLIM1_116207638_116207779">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ABLIM1_116207638_116207779" />
+        </attvalues>
+      </node>
+      <node id="ELP2_33713200_33713279" label="ELP2_33713200_33713279">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ELP2_33713200_33713279" />
+        </attvalues>
+      </node>
+      <node id="CD46_207940951_207940996" label="CD46_207940951_207940996">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CD46_207940951_207940996" />
+        </attvalues>
+      </node>
+      <node id="SNAP23_42813811_42813906" label="SNAP23_42813811_42813906">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SNAP23_42813811_42813906" />
+        </attvalues>
+      </node>
+      <node id="NAPB_23375775_23375899" label="NAPB_23375775_23375899">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAPB_23375775_23375899" />
+        </attvalues>
+      </node>
+      <node id="ROBO1_78696778_78696805" label="ROBO1_78696778_78696805">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ROBO1_78696778_78696805" />
+        </attvalues>
+      </node>
+      <node id="ECHDC2_53370705_53372283" label="ECHDC2_53370705_53372283">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ECHDC2_53370705_53372283" />
+        </attvalues>
+      </node>
+      <node id="CEACAM1_43015727_43015780" label="CEACAM1_43015727_43015780">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CEACAM1_43015727_43015780" />
+        </attvalues>
+      </node>
+      <node id="NOP58_203164701_203164860" label="NOP58_203164701_203164860">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NOP58_203164701_203164860" />
+        </attvalues>
+      </node>
+      <node id="SLMAP_57911571_57911661" label="SLMAP_57911571_57911661">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLMAP_57911571_57911661" />
+        </attvalues>
+      </node>
+      <node id="ATP5J_27106480_27106686" label="ATP5J_27106480_27106686">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ATP5J_27106480_27106686" />
+        </attvalues>
+      </node>
+      <node id="TJAP1_43457636_43457766" label="TJAP1_43457636_43457766">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TJAP1_43457636_43457766" />
+        </attvalues>
+      </node>
+      <node id="NAB1_191518452_191518506" label="NAB1_191518452_191518506">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAB1_191518452_191518506" />
+        </attvalues>
+      </node>
+      <node id="ACAT2_160189542_160189582" label="ACAT2_160189542_160189582">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACAT2_160189542_160189582" />
+        </attvalues>
+      </node>
+      <node id="IDI1_1089938_1090111" label="IDI1_1089938_1090111">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IDI1_1089938_1090111" />
+        </attvalues>
+      </node>
+      <node id="RBFOX2" label="RBFOX2">
+        <attvalues>
+          <attvalue for="0" value="RBP" />
+          <attvalue for="1" value="source" />
+        </attvalues>
+      </node>
+      <node id="DIAPH1_140967790_140967817" label="DIAPH1_140967790_140967817">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DIAPH1_140967790_140967817" />
+        </attvalues>
+      </node>
+      <node id="MPRIP_17083920_17083983" label="MPRIP_17083920_17083983">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MPRIP_17083920_17083983" />
+        </attvalues>
+      </node>
+      <node id="HGD_120365113_120365213" label="HGD_120365113_120365213">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HGD_120365113_120365213" />
+        </attvalues>
+      </node>
+      <node id="MYO9B_17321141_17321189" label="MYO9B_17321141_17321189">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MYO9B_17321141_17321189" />
+        </attvalues>
+      </node>
+      <node id="ITPR2_26555775_26555956" label="ITPR2_26555775_26555956">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ITPR2_26555775_26555956" />
+        </attvalues>
+      </node>
+      <node id="EPB41L2_131201283_131201346" label="EPB41L2_131201283_131201346">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EPB41L2_131201283_131201346" />
+        </attvalues>
+      </node>
+      <node id="CTTN_70267575_70267642" label="CTTN_70267575_70267642">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTTN_70267575_70267642" />
+        </attvalues>
+      </node>
+      <node id="MALT1_56378152_56378185" label="MALT1_56378152_56378185">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MALT1_56378152_56378185" />
+        </attvalues>
+      </node>
+      <node id="ACAA1_38167652_38167843" label="ACAA1_38167652_38167843">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACAA1_38167652_38167843" />
+        </attvalues>
+      </node>
+      <node id="CTTN_70267575_70267669" label="CTTN_70267575_70267669">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTTN_70267575_70267669" />
+        </attvalues>
+      </node>
+      <node id="ACAA1_38167652_38167832" label="ACAA1_38167652_38167832">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACAA1_38167652_38167832" />
+        </attvalues>
+      </node>
+      <node id="PEG3_57345010_57345131" label="PEG3_57345010_57345131">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PEG3_57345010_57345131" />
+        </attvalues>
+      </node>
+      <node id="FKBP10_39976958_39977092" label="FKBP10_39976958_39977092">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FKBP10_39976958_39977092" />
+        </attvalues>
+      </node>
+      <node id="GGT1_25004956_25005198" label="GGT1_25004956_25005198">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GGT1_25004956_25005198" />
+        </attvalues>
+      </node>
+      <node id="GOLIM4_167758573_167758657" label="GOLIM4_167758573_167758657">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GOLIM4_167758573_167758657" />
+        </attvalues>
+      </node>
+      <node id="IQSEC1_12944272_12944322" label="IQSEC1_12944272_12944322">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IQSEC1_12944272_12944322" />
+        </attvalues>
+      </node>
+      <node id="CTTN_70267575_70267686" label="CTTN_70267575_70267686">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTTN_70267575_70267686" />
+        </attvalues>
+      </node>
+      <node id="GLYCTK_52325760_52325938" label="GLYCTK_52325760_52325938">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GLYCTK_52325760_52325938" />
+        </attvalues>
+      </node>
+      <node id="GLYCTK_52325774_52325938" label="GLYCTK_52325774_52325938">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GLYCTK_52325774_52325938" />
+        </attvalues>
+      </node>
+      <node id="LMO7_76383289_76383319" label="LMO7_76383289_76383319">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LMO7_76383289_76383319" />
+        </attvalues>
+      </node>
+      <node id="GPR126_142762044_142762090" label="GPR126_142762044_142762090">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GPR126_142762044_142762090" />
+        </attvalues>
+      </node>
+      <node id="GLYCTK_52325812_52325938" label="GLYCTK_52325812_52325938">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GLYCTK_52325812_52325938" />
+        </attvalues>
+      </node>
+      <node id="KIAA1984_139701732_139701804" label="KIAA1984_139701732_139701804">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KIAA1984_139701732_139701804" />
+        </attvalues>
+      </node>
+      <node id="EPB41_29386933_29386996" label="EPB41_29386933_29386996">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EPB41_29386933_29386996" />
+        </attvalues>
+      </node>
+      <node id="GOLGA2_131029472_131029538" label="GOLGA2_131029472_131029538">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GOLGA2_131029472_131029538" />
+        </attvalues>
+      </node>
+      <node id="GOLGA2_131029472_131029553" label="GOLGA2_131029472_131029553">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GOLGA2_131029472_131029553" />
+        </attvalues>
+      </node>
+      <node id="SF1_64533525_64533627" label="SF1_64533525_64533627">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SF1_64533525_64533627" />
+        </attvalues>
+      </node>
+      <node id="NEDD4L_55712303_55712434" label="NEDD4L_55712303_55712434">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NEDD4L_55712303_55712434" />
+        </attvalues>
+      </node>
+      <node id="NEDD4L_55712303_55712532" label="NEDD4L_55712303_55712532">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NEDD4L_55712303_55712532" />
+        </attvalues>
+      </node>
+      <node id="RNPEPL1_241513191_241513308" label="RNPEPL1_241513191_241513308">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RNPEPL1_241513191_241513308" />
+        </attvalues>
+      </node>
+      <node id="SF1_64533422_64533627" label="SF1_64533422_64533627">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SF1_64533422_64533627" />
+        </attvalues>
+      </node>
+      <node id="CTTN_70268614_70268737" label="CTTN_70268614_70268737">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTTN_70268614_70268737" />
+        </attvalues>
+      </node>
+      <node id="BCL2L2-PABPN1_23778024_23778141" label="BCL2L2-PABPN1_23778024_23778141">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="BCL2L2-PABPN1_23778024_23778141" />
+        </attvalues>
+      </node>
+      <node id="FAM126A_22986570_22986866" label="FAM126A_22986570_22986866">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FAM126A_22986570_22986866" />
+        </attvalues>
+      </node>
+      <node id="IL17RB_53892597_53892637" label="IL17RB_53892597_53892637">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IL17RB_53892597_53892637" />
+        </attvalues>
+      </node>
+      <node id="RPS5_58904725_58904854" label="RPS5_58904725_58904854">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPS5_58904725_58904854" />
+        </attvalues>
+      </node>
+      <node id="EVI5_93128976_93129009" label="EVI5_93128976_93129009">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EVI5_93128976_93129009" />
+        </attvalues>
+      </node>
+      <node id="GLYR1_4867840_4867933" label="GLYR1_4867840_4867933">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GLYR1_4867840_4867933" />
+        </attvalues>
+      </node>
+      <node id="PSMD6_64008318_64008477" label="PSMD6_64008318_64008477">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PSMD6_64008318_64008477" />
+        </attvalues>
+      </node>
+      <node id="ABI1_27044583_27044670" label="ABI1_27044583_27044670">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ABI1_27044583_27044670" />
+        </attvalues>
+      </node>
+      <node id="SORBS1_97174250_97174619" label="SORBS1_97174250_97174619">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS1_97174250_97174619" />
+        </attvalues>
+      </node>
+      <node id="NSMF_140349197_140349422" label="NSMF_140349197_140349422">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NSMF_140349197_140349422" />
+        </attvalues>
+      </node>
+      <node id="DHRS2_24109002_24109062" label="DHRS2_24109002_24109062">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DHRS2_24109002_24109062" />
+        </attvalues>
+      </node>
+      <node id="ABCC2_101556853_101557088" label="ABCC2_101556853_101557088">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ABCC2_101556853_101557088" />
+        </attvalues>
+      </node>
+      <node id="WFS1_6295984_6296115" label="WFS1_6295984_6296115">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="WFS1_6295984_6296115" />
+        </attvalues>
+      </node>
+      <node id="AHSG_186336079_186336177" label="AHSG_186336079_186336177">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AHSG_186336079_186336177" />
+        </attvalues>
+      </node>
+      <node id="SNHG6_67834558_67834627" label="SNHG6_67834558_67834627">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SNHG6_67834558_67834627" />
+        </attvalues>
+      </node>
+      <node id="MAP3K7_91254270_91254351" label="MAP3K7_91254270_91254351">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAP3K7_91254270_91254351" />
+        </attvalues>
+      </node>
+      <node id="APBB2_40937093_40937156" label="APBB2_40937093_40937156">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="APBB2_40937093_40937156" />
+        </attvalues>
+      </node>
+      <node id="P2RX4_121671066_121671124" label="P2RX4_121671066_121671124">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="P2RX4_121671066_121671124" />
+        </attvalues>
+      </node>
+      <node id="PTK2_141679825_141679834" label="PTK2_141679825_141679834">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PTK2_141679825_141679834" />
+        </attvalues>
+      </node>
+      <node id="ASL_65551730_65551808" label="ASL_65551730_65551808">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ASL_65551730_65551808" />
+        </attvalues>
+      </node>
+      <node id="EPB41L1_34797409_34797820" label="EPB41L1_34797409_34797820">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EPB41L1_34797409_34797820" />
+        </attvalues>
+      </node>
+      <node id="SORBS1_97174250_97174412" label="SORBS1_97174250_97174412">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SORBS1_97174250_97174412" />
+        </attvalues>
+      </node>
+      <node id="LINC00963_132255694_132255874" label="LINC00963_132255694_132255874">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LINC00963_132255694_132255874" />
+        </attvalues>
+      </node>
+      <node id="FAM126A_22986651_22986866" label="FAM126A_22986651_22986866">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FAM126A_22986651_22986866" />
+        </attvalues>
+      </node>
+      <node id="GNAS_57475003_57475080" label="GNAS_57475003_57475080">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GNAS_57475003_57475080" />
+        </attvalues>
+      </node>
+      <node id="GNAS_57475003_57475085" label="GNAS_57475003_57475085">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GNAS_57475003_57475085" />
+        </attvalues>
+      </node>
+      <node id="NPHP3_132415574_132415657" label="NPHP3_132415574_132415657">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NPHP3_132415574_132415657" />
+        </attvalues>
+      </node>
+      <node id="KLC1_104158695_104158762" label="KLC1_104158695_104158762">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KLC1_104158695_104158762" />
+        </attvalues>
+      </node>
+      <node id="EXOC3L4_103573967_103574120" label="EXOC3L4_103573967_103574120">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EXOC3L4_103573967_103574120" />
+        </attvalues>
+      </node>
+      <node id="GCFC2_75929438_75929573" label="GCFC2_75929438_75929573">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GCFC2_75929438_75929573" />
+        </attvalues>
+      </node>
+      <node id="F2_46748047_46748125" label="F2_46748047_46748125">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="F2_46748047_46748125" />
+        </attvalues>
+      </node>
+      <node id="PLXNB2_50723001_50723034" label="PLXNB2_50723001_50723034">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PLXNB2_50723001_50723034" />
+        </attvalues>
+      </node>
+      <node id="SLC35E1_16678842_16678980" label="SLC35E1_16678842_16678980">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLC35E1_16678842_16678980" />
+        </attvalues>
+      </node>
+      <node id="PKP4_159518073_159518180" label="PKP4_159518073_159518180">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PKP4_159518073_159518180" />
+        </attvalues>
+      </node>
+      <node id="ITIH3_52832233_52832289" label="ITIH3_52832233_52832289">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ITIH3_52832233_52832289" />
+        </attvalues>
+      </node>
+      <node id="LONP1_5707707_5707837" label="LONP1_5707707_5707837">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LONP1_5707707_5707837" />
+        </attvalues>
+      </node>
+      <node id="CTTN_70268614_70268698" label="CTTN_70268614_70268698">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CTTN_70268614_70268698" />
+        </attvalues>
+      </node>
+      <node id="MICAL3_18295272_18295323" label="MICAL3_18295272_18295323">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MICAL3_18295272_18295323" />
+        </attvalues>
+      </node>
+      <node id="TBRG4_45144136_45144308" label="TBRG4_45144136_45144308">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TBRG4_45144136_45144308" />
+        </attvalues>
+      </node>
+      <node id="C9orf3_97781731_97782515" label="C9orf3_97781731_97782515">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="C9orf3_97781731_97782515" />
+        </attvalues>
+      </node>
+      <node id="ACADVL_7124837_7125001" label="ACADVL_7124837_7125001">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACADVL_7124837_7125001" />
+        </attvalues>
+      </node>
+      <node id="ACADVL_7124856_7125001" label="ACADVL_7124856_7125001">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACADVL_7124856_7125001" />
+        </attvalues>
+      </node>
+      <node id="PHC2_33800766_33800960" label="PHC2_33800766_33800960">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PHC2_33800766_33800960" />
+        </attvalues>
+      </node>
+      <node id="ENAH_225692692_225692755" label="ENAH_225692692_225692755">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ENAH_225692692_225692755" />
+        </attvalues>
+      </node>
+      <node id="IRF3_50167930_50168103" label="IRF3_50167930_50168103">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IRF3_50167930_50168103" />
+        </attvalues>
+      </node>
+      <node id="NSFL1C_1436358_1436515" label="NSFL1C_1436358_1436515">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NSFL1C_1436358_1436515" />
+        </attvalues>
+      </node>
+      <node id="ZC3H18_88677675_88677944" label="ZC3H18_88677675_88677944">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZC3H18_88677675_88677944" />
+        </attvalues>
+      </node>
+      <node id="PPP1R12A_80199945_80200113" label="PPP1R12A_80199945_80200113">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PPP1R12A_80199945_80200113" />
+        </attvalues>
+      </node>
+      <node id="KLC1_104151322_104151373" label="KLC1_104151322_104151373">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KLC1_104151322_104151373" />
+        </attvalues>
+      </node>
+      <node id="PPP1R12A_80199945_80200077" label="PPP1R12A_80199945_80200077">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PPP1R12A_80199945_80200077" />
+        </attvalues>
+      </node>
+      <node id="SMPD4_130918758_130918845" label="SMPD4_130918758_130918845">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SMPD4_130918758_130918845" />
+        </attvalues>
+      </node>
+      <node id="SLC44A2_10753572_10753697" label="SLC44A2_10753572_10753697">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLC44A2_10753572_10753697" />
+        </attvalues>
+      </node>
+      <node id="RPL17_47018115_47018203" label="RPL17_47018115_47018203">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RPL17_47018115_47018203" />
+        </attvalues>
+      </node>
+      <node id="NUMA1_71723446_71723488" label="NUMA1_71723446_71723488">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NUMA1_71723446_71723488" />
+        </attvalues>
+      </node>
+      <node id="RALGAPA2_20377338_20377378" label="RALGAPA2_20377338_20377378">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RALGAPA2_20377338_20377378" />
+        </attvalues>
+      </node>
+      <node id="MACF1_39930766_39930784" label="MACF1_39930766_39930784">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MACF1_39930766_39930784" />
+        </attvalues>
+      </node>
+      <node id="PPP6R2_50875494_50875497" label="PPP6R2_50875494_50875497">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PPP6R2_50875494_50875497" />
+        </attvalues>
+      </node>
+      <node id="AP1G1_71801779_71801788" label="AP1G1_71801779_71801788">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AP1G1_71801779_71801788" />
+        </attvalues>
+      </node>
+      <node id="MAGI1_65433696_65433732" label="MAGI1_65433696_65433732">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MAGI1_65433696_65433732" />
+        </attvalues>
+      </node>
+      <node id="ZFYVE21_104196129_104196183" label="ZFYVE21_104196129_104196183">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZFYVE21_104196129_104196183" />
+        </attvalues>
+      </node>
+      <node id="NAALADL1_64814946_64815037" label="NAALADL1_64814946_64815037">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAALADL1_64814946_64815037" />
+        </attvalues>
+      </node>
+      <node id="WBP1_74686123_74686225" label="WBP1_74686123_74686225">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="WBP1_74686123_74686225" />
+        </attvalues>
+      </node>
+      <node id="FCGRT_50028713_50028830" label="FCGRT_50028713_50028830">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FCGRT_50028713_50028830" />
+        </attvalues>
+      </node>
+      <node id="ZNF267_31901527_31901571" label="ZNF267_31901527_31901571">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZNF267_31901527_31901571" />
+        </attvalues>
+      </node>
+      <node id="IP6K2_48732126_48732369" label="IP6K2_48732126_48732369">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IP6K2_48732126_48732369" />
+        </attvalues>
+      </node>
+      <node id="HMGN1_40719841_40719878" label="HMGN1_40719841_40719878">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HMGN1_40719841_40719878" />
+        </attvalues>
+      </node>
+      <node id="COL27A1_117029783_117029837" label="COL27A1_117029783_117029837">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="COL27A1_117029783_117029837" />
+        </attvalues>
+      </node>
+      <node id="ALDOA_30077196_30077248" label="ALDOA_30077196_30077248">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ALDOA_30077196_30077248" />
+        </attvalues>
+      </node>
+      <node id="FGFR1OP_167426995_167427017" label="FGFR1OP_167426995_167427017">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FGFR1OP_167426995_167427017" />
+        </attvalues>
+      </node>
+      <node id="ASGR1_7080528_7080645" label="ASGR1_7080528_7080645">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ASGR1_7080528_7080645" />
+        </attvalues>
+      </node>
+      <node id="TTL_113277858_113277961" label="TTL_113277858_113277961">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TTL_113277858_113277961" />
+        </attvalues>
+      </node>
+      <node id="ETV4_41620338_41620414" label="ETV4_41620338_41620414">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ETV4_41620338_41620414" />
+        </attvalues>
+      </node>
+      <node id="CNNM2_104831530_104831596" label="CNNM2_104831530_104831596">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CNNM2_104831530_104831596" />
+        </attvalues>
+      </node>
+      <node id="AFMID_76200908_76200981" label="AFMID_76200908_76200981">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AFMID_76200908_76200981" />
+        </attvalues>
+      </node>
+      <node id="PDIA5_122870296_122870507" label="PDIA5_122870296_122870507">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PDIA5_122870296_122870507" />
+        </attvalues>
+      </node>
+      <node id="DMTN_21924595_21924670" label="DMTN_21924595_21924670">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DMTN_21924595_21924670" />
+        </attvalues>
+      </node>
+      <node id="TXLNG2P_21757872_21758020" label="TXLNG2P_21757872_21758020">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TXLNG2P_21757872_21758020" />
+        </attvalues>
+      </node>
+      <node id="ACAA1_38167818_38167832" label="ACAA1_38167818_38167832">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACAA1_38167818_38167832" />
+        </attvalues>
+      </node>
+      <node id="RAN_131357128_131357174" label="RAN_131357128_131357174">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="RAN_131357128_131357174" />
+        </attvalues>
+      </node>
+      <node id="FAM49B_130891634_130891717" label="FAM49B_130891634_130891717">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FAM49B_130891634_130891717" />
+        </attvalues>
+      </node>
+      <node id="NSMF_140349197_140349373" label="NSMF_140349197_140349373">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NSMF_140349197_140349373" />
+        </attvalues>
+      </node>
+      <node id="CLSTN1_9797555_9797612" label="CLSTN1_9797555_9797612">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CLSTN1_9797555_9797612" />
+        </attvalues>
+      </node>
+      <node id="DHRS2_24108049_24108213" label="DHRS2_24108049_24108213">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DHRS2_24108049_24108213" />
+        </attvalues>
+      </node>
+      <node id="DHRS2_24108013_24108213" label="DHRS2_24108013_24108213">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DHRS2_24108013_24108213" />
+        </attvalues>
+      </node>
+      <node id="PTTG1IP_46284820_46285066" label="PTTG1IP_46284820_46285066">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PTTG1IP_46284820_46285066" />
+        </attvalues>
+      </node>
+      <node id="NSFL1C_1436358_1436364" label="NSFL1C_1436358_1436364">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NSFL1C_1436358_1436364" />
+        </attvalues>
+      </node>
+      <node id="LARP1_154173359_154173560" label="LARP1_154173359_154173560">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LARP1_154173359_154173560" />
+        </attvalues>
+      </node>
+      <node id="MTSS1L_70713012_70713226" label="MTSS1L_70713012_70713226">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MTSS1L_70713012_70713226" />
+        </attvalues>
+      </node>
+      <node id="IQSEC1_12956603_12956633" label="IQSEC1_12956603_12956633">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="IQSEC1_12956603_12956633" />
+        </attvalues>
+      </node>
+      <node id="DVL3_183882900_183882976" label="DVL3_183882900_183882976">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DVL3_183882900_183882976" />
+        </attvalues>
+      </node>
+      <node id="ACAA1_38167818_38167843" label="ACAA1_38167818_38167843">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ACAA1_38167818_38167843" />
+        </attvalues>
+      </node>
+      <node id="TXLNG2P_21757900_21758020" label="TXLNG2P_21757900_21758020">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TXLNG2P_21757900_21758020" />
+        </attvalues>
+      </node>
+      <node id="EPS8L2_721902_721991" label="EPS8L2_721902_721991">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="EPS8L2_721902_721991" />
+        </attvalues>
+      </node>
+      <node id="YY1AP1_155638417_155638588" label="YY1AP1_155638417_155638588">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="YY1AP1_155638417_155638588" />
+        </attvalues>
+      </node>
+      <node id="SLC35B1_47784704_47784806" label="SLC35B1_47784704_47784806">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SLC35B1_47784704_47784806" />
+        </attvalues>
+      </node>
+      <node id="STK25_242440892_242441123" label="STK25_242440892_242441123">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="STK25_242440892_242441123" />
+        </attvalues>
+      </node>
+      <node id="HERC2P2_23285704_23285752" label="HERC2P2_23285704_23285752">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="HERC2P2_23285704_23285752" />
+        </attvalues>
+      </node>
+      <node id="PAH_103260373_103260441" label="PAH_103260373_103260441">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PAH_103260373_103260441" />
+        </attvalues>
+      </node>
+      <node id="ZC3H13_46550316_46550400" label="ZC3H13_46550316_46550400">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZC3H13_46550316_46550400" />
+        </attvalues>
+      </node>
+      <node id="NFATC3_68248231_68248335" label="NFATC3_68248231_68248335">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NFATC3_68248231_68248335" />
+        </attvalues>
+      </node>
+      <node id="SETD5_9476246_9476314" label="SETD5_9476246_9476314">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="SETD5_9476246_9476314" />
+        </attvalues>
+      </node>
+      <node id="INSR_7150507_7150543" label="INSR_7150507_7150543">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="INSR_7150507_7150543" />
+        </attvalues>
+      </node>
+      <node id="ZMYND8_45848908_45848975" label="ZMYND8_45848908_45848975">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZMYND8_45848908_45848975" />
+        </attvalues>
+      </node>
+      <node id="DLGAP4_35127644_35127724" label="DLGAP4_35127644_35127724">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DLGAP4_35127644_35127724" />
+        </attvalues>
+      </node>
+      <node id="GPX3_150400388_150400814" label="GPX3_150400388_150400814">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="GPX3_150400388_150400814" />
+        </attvalues>
+      </node>
+      <node id="CLTC_57764361_57764382" label="CLTC_57764361_57764382">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="CLTC_57764361_57764382" />
+        </attvalues>
+      </node>
+      <node id="ZNF721_461405_461470" label="ZNF721_461405_461470">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZNF721_461405_461470" />
+        </attvalues>
+      </node>
+      <node id="AK4_65613960_65614235" label="AK4_65613960_65614235">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AK4_65613960_65614235" />
+        </attvalues>
+      </node>
+      <node id="MMAB_110006574_110006668" label="MMAB_110006574_110006668">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MMAB_110006574_110006668" />
+        </attvalues>
+      </node>
+      <node id="NADK_1688177_1688321" label="NADK_1688177_1688321">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NADK_1688177_1688321" />
+        </attvalues>
+      </node>
+      <node id="YY1AP1_155638417_155638568" label="YY1AP1_155638417_155638568">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="YY1AP1_155638417_155638568" />
+        </attvalues>
+      </node>
+      <node id="MFF_228217229_228217289" label="MFF_228217229_228217289">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MFF_228217229_228217289" />
+        </attvalues>
+      </node>
+      <node id="DCAF8_160194851_160194909" label="DCAF8_160194851_160194909">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="DCAF8_160194851_160194909" />
+        </attvalues>
+      </node>
+      <node id="ECT2_172473272_172473365" label="ECT2_172473272_172473365">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ECT2_172473272_172473365" />
+        </attvalues>
+      </node>
+      <node id="PIGT_44047491_44047619" label="PIGT_44047491_44047619">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PIGT_44047491_44047619" />
+        </attvalues>
+      </node>
+      <node id="WDR59_74921580_74921653" label="WDR59_74921580_74921653">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="WDR59_74921580_74921653" />
+        </attvalues>
+      </node>
+      <node id="ADRM1_60879516_60879633" label="ADRM1_60879516_60879633">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ADRM1_60879516_60879633" />
+        </attvalues>
+      </node>
+      <node id="NADK_1688217_1688321" label="NADK_1688217_1688321">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NADK_1688217_1688321" />
+        </attvalues>
+      </node>
+      <node id="KLF6_3825407_3825473" label="KLF6_3825407_3825473">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KLF6_3825407_3825473" />
+        </attvalues>
+      </node>
+      <node id="MYL6_56554409_56554454" label="MYL6_56554409_56554454">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="MYL6_56554409_56554454" />
+        </attvalues>
+      </node>
+      <node id="FBXO31_87392016_87392103" label="FBXO31_87392016_87392103">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FBXO31_87392016_87392103" />
+        </attvalues>
+      </node>
+      <node id="UGGT1_128913965_128913989" label="UGGT1_128913965_128913989">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UGGT1_128913965_128913989" />
+        </attvalues>
+      </node>
+      <node id="AC084018.1_122239477_122239514" label="AC084018.1_122239477_122239514">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="AC084018.1_122239477_122239514" />
+        </attvalues>
+      </node>
+      <node id="LINC00963_132255697_132255874" label="LINC00963_132255697_132255874">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="LINC00963_132255697_132255874" />
+        </attvalues>
+      </node>
+      <node id="KIF13A_17790102_17790141" label="KIF13A_17790102_17790141">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KIF13A_17790102_17790141" />
+        </attvalues>
+      </node>
+      <node id="ZNF3_99677162_99677279" label="ZNF3_99677162_99677279">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ZNF3_99677162_99677279" />
+        </attvalues>
+      </node>
+      <node id="OSBPL3_24888687_24888795" label="OSBPL3_24888687_24888795">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="OSBPL3_24888687_24888795" />
+        </attvalues>
+      </node>
+      <node id="ARHGEF10L_17961042_17961057" label="ARHGEF10L_17961042_17961057">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ARHGEF10L_17961042_17961057" />
+        </attvalues>
+      </node>
+      <node id="TBX3_115117717_115117777" label="TBX3_115117717_115117777">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="TBX3_115117717_115117777" />
+        </attvalues>
+      </node>
+      <node id="KHK_27315199_27315316" label="KHK_27315199_27315316">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="KHK_27315199_27315316" />
+        </attvalues>
+      </node>
+      <node id="FOXM1_2974520_2974565" label="FOXM1_2974520_2974565">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="FOXM1_2974520_2974565" />
+        </attvalues>
+      </node>
+      <node id="NAV2_20072834_20072879" label="NAV2_20072834_20072879">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="NAV2_20072834_20072879" />
+        </attvalues>
+      </node>
+      <node id="ASGR2_7012054_7012207" label="ASGR2_7012054_7012207">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="ASGR2_7012054_7012207" />
+        </attvalues>
+      </node>
+      <node id="UBAP2L_154214175_154214273" label="UBAP2L_154214175_154214273">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="UBAP2L_154214175_154214273" />
+        </attvalues>
+      </node>
+      <node id="PKP4_159533250_159533379" label="PKP4_159533250_159533379">
+        <attvalues>
+          <attvalue for="0" value="SplicingEvent" />
+          <attvalue for="1" value="target" />
+          <attvalue for="2" value="PKP4_159533250_159533379" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="QKI" target="GPR126_142704896_142704980" id="0" weight="-0.2094353809016701" />
+      <edge source="QKI" target="FAM208B_5762222_5762360" id="1" weight="-0.2293674412999825" />
+      <edge source="QKI" target="DOCK6_11339960_11340066" id="2" weight="-0.1436893309311174" />
+      <edge source="QKI" target="LPHN2_82452584_82452713" id="3" weight="-0.1939657220850695" />
+      <edge source="QKI" target="MAP4K4_102477286_102477448" id="4" weight="-0.13416954089013242" />
+      <edge source="QKI" target="DOCK6_11339973_11340066" id="5" weight="-0.10501518388961584" />
+      <edge source="QKI" target="DEPDC1_68947728_68948580" id="6" weight="-0.182363477972619" />
+      <edge source="QKI" target="PIEZO2_10708272_10708437" id="7" weight="-0.2094353809016701" />
+      <edge source="QKI" target="INF2_105181620_105181677" id="8" weight="0.18533841236042684" />
+      <edge source="QKI" target="GOLGA4_37402733_37402796" id="9" weight="-0.13535951464525556" />
+      <edge source="QKI" target="NHSL1_138763119_138763251" id="10" weight="-0.07586082688909926" />
+      <edge source="QKI" target="ADD3_111892062_111892257" id="11" weight="-0.23323485600413266" />
+      <edge source="QKI" target="BPTF_65871671_65871860" id="12" weight="0.06723351716445661" />
+      <edge source="QKI" target="SPAST_32323864_32323960" id="13" weight="-0.04105409455174784" />
+      <edge source="QKI" target="RPS24_79799961_79799983" id="14" weight="0.04224406830687096" />
+      <edge source="QKI" target="EHBP1_63215065_63215173" id="15" weight="-0.1201873492674357" />
+      <edge source="QKI" target="MBNL2_98017389_98017425" id="16" weight="-0.16421637820699136" />
+      <edge source="QKI" target="DENND4C_19336701_19336830" id="17" weight="-0.12524473772670897" />
+      <edge source="QKI" target="EPB41L2_131199243_131199390" id="18" weight="0.036591692970036116" />
+      <edge source="QKI" target="RPS24_79799958_79799983" id="19" weight="0.0351042257761322" />
+      <edge source="QKI" target="UBA1_47057925_47058027" id="20" weight="-0.005354881898054065" />
+      <edge source="QKI" target="VPS29_110937261_110937351" id="21" weight="-0.04373153550077487" />
+      <edge source="QKI" target="SEPT6_118759297_118759342" id="22" weight="-0.20140305805458905" />
+      <edge source="QKI" target="OSBPL9_52221991_52222030" id="23" weight="0.1377394621555018" />
+      <edge source="QKI" target="ADD3_111892062_111892158" id="24" weight="-0.2097328743404509" />
+      <edge source="QKI" target="SLK_105770573_105770666" id="25" weight="-0.033616758582228304" />
+      <edge source="QKI" target="DENND4C_19336683_19336830" id="26" weight="-0.07943074815446864" />
+      <edge source="QKI" target="FEZ2_36787927_36788008" id="27" weight="-0.022609501347339387" />
+      <edge source="QKI" target="GGCX_85779538_85779678" id="28" weight="0.08300066941983802" />
+      <edge source="QKI" target="ESYT2_158545471_158545534" id="29" weight="-0.18295846485018058" />
+      <edge source="QKI" target="PHF3_64388728_64388921" id="30" weight="-0.058308714001033164" />
+      <edge source="QKI" target="PLEKHA1_124187791_124187832" id="31" weight="0.11572494768572397" />
+      <edge source="QKI" target="GGCX_85779538_85779690" id="32" weight="0.045219002694678774" />
+      <edge source="QKI" target="FN1_216257800_216257926" id="33" weight="-0.041649081429309405" />
+      <edge source="QKI" target="FGFR1_38287199_38287466" id="34" weight="-0.08627309724642661" />
+      <edge source="QKI" target="DOCK7_63010617_63010710" id="35" weight="-0.03480673233735143" />
+      <edge source="QKI" target="SEPP1_42804757_42804902" id="36" weight="-0.0017849606326846886" />
+      <edge source="QKI" target="SEC31A_83782783_83782861" id="37" weight="-0.1570765356762526" />
+      <edge source="QKI" target="PLEKHA1_124187791_124187862" id="38" weight="0.0960903807261924" />
+      <edge source="QKI" target="PLEKHA1_124187756_124187832" id="39" weight="0.09490040697106927" />
+      <edge source="QKI" target="HNRNPC_21730759_21730927" id="40" weight="-0.006544855653177191" />
+      <edge source="QKI" target="ACSL4_108934231_108934360" id="41" weight="-0.015172165377819851" />
+      <edge source="QKI" target="HNRNPH1_179046269_179046408" id="42" weight="0.013089711306354382" />
+      <edge source="QKI" target="RAB12_8625798_8625992" id="43" weight="-0.08210818910349568" />
+      <edge source="QKI" target="PLEKHA1_124187791_124187936" id="44" weight="0.09014051195057676" />
+      <edge source="QKI" target="INCENP_61908971_61908983" id="45" weight="0.06782850404201816" />
+      <edge source="QKI" target="CYFIP1_22956038_22956186" id="46" weight="-0.0624736221439641" />
+      <edge source="QKI" target="MARK2_63671457_63671619" id="47" weight="-0.14636677188014446" />
+      <edge source="QKI" target="TMEM230_5092145_5092251" id="48" weight="-0.059201194317375506" />
+      <edge source="QKI" target="WDFY3_85729486_85729570" id="49" weight="-0.16927376666626462" />
+      <edge source="QKI" target="FGFR1_38286764_38286908" id="50" weight="-0.05682124680712925" />
+      <edge source="QKI" target="VPS29_110937339_110937351" id="51" weight="-0.04254156174565174" />
+      <edge source="QKI" target="RNMT_13730625_13730754" id="52" weight="-0.053251325541759875" />
+      <edge source="QKI" target="DST_56333779_56333797" id="53" weight="0.21449276936094339" />
+      <edge source="QKI" target="COBLL1_165559613_165559730" id="54" weight="-0.04819393708248659" />
+      <edge source="QKI" target="NAV2_20071381_20071447" id="55" weight="-0.21657522343240887" />
+      <edge source="QKI" target="COBLL1_165559613_165559748" id="56" weight="-0.047301456766144244" />
+      <edge source="QKI" target="TCF12_57544618_57544690" id="57" weight="-0.15975397662527963" />
+      <edge source="QKI" target="A1CF_52623792_52623840" id="58" weight="-0.023799475102462515" />
+      <edge source="QKI" target="GCKR_27728584_27728703" id="59" weight="-0.02290699478612017" />
+      <edge source="QKI" target="CTNND1_57583386_57583473" id="60" weight="-0.005057388459273285" />
+      <edge source="QKI" target="SF3B1_198283619_198283675" id="61" weight="-0.00832981628586188" />
+      <edge source="QKI" target="ARGLU1_107209906_107209964" id="62" weight="0.012494724428792821" />
+      <edge source="QKI" target="SYNC_33149610_33149690" id="63" weight="0.1585640028701565" />
+      <edge source="QKI" target="FGFR1OP2_27113447_27113561" id="64" weight="0.15112666690063697" />
+      <edge source="QKI" target="SBF1_50895462_50895540" id="65" weight="0.15558906848234869" />
+      <edge source="QKI" target="UTRN_145148483_145148522" id="66" weight="0.15469658816600634" />
+      <edge source="QKI" target="LRRFIP2_37132957_37133029" id="67" weight="0.15439909472722557" />
+      <edge source="QKI" target="PLEKHA1_124187756_124187936" id="68" weight="0.01427968506147751" />
+      <edge source="QKI" target="PHKB_47497792_47497904" id="69" weight="-0.14696175875770603" />
+      <edge source="QKI" target="PLEKHA1_124187756_124187862" id="70" weight="0.011007257234888912" />
+      <edge source="QKI" target="PICALM_85701292_85701442" id="71" weight="-0.14130938342087118" />
+      <edge source="QKI" target="DOCK6_11342860_11342965" id="72" weight="0.14934170626795226" />
+      <edge source="QKI" target="NAV2_20104137_20104146" id="73" weight="-0.14666426531892524" />
+      <edge source="QKI" target="PHKB_47497809_47497904" id="74" weight="-0.137441968716721" />
+      <edge source="QKI" target="HMGN1_40717755_40719218" id="75" weight="-0.09460291353228849" />
+      <edge source="QKI" target="C14orf37_58759783_58759856" id="76" weight="-0.03718667984759768" />
+      <edge source="QKI" target="RALGAPA1_36017713_36017744" id="77" weight="0.21449276936094339" />
+      <edge source="QKI" target="PICALM_85701292_85701421" id="78" weight="-0.13119460650232462" />
+      <edge source="QKI" target="DST_56327843_56327954" id="79" weight="0.1407143965433096" />
+      <edge source="QKI" target="SNRNP70_49605370_49606844" id="80" weight="-0.023501981663681733" />
+      <edge source="QKI" target="PARD3_34625126_34625171" id="81" weight="-0.02707190292905111" />
+      <edge source="QKI" target="ATP5J_27106643_27106709" id="82" weight="-0.005354881898054065" />
+      <edge source="QKI" target="UAP1_162562521_162562572" id="83" weight="0.13595450152281713" />
+      <edge source="QKI" target="ATP5J_27106643_27106686" id="84" weight="-0.005652375336834847" />
+      <edge source="QKI" target="RBM39_34301623_34301779" id="85" weight="-0.017254619449285323" />
+      <edge source="QKI" target="RBM39_34301626_34301779" id="86" weight="-0.01695712601050454" />
+      <edge source="QKI" target="WNK1_989886_990165" id="87" weight="-0.13982191622696727" />
+      <edge source="QKI" target="TMEM59_54512939_54513045" id="88" weight="-0.011007257234888912" />
+      <edge source="QKI" target="SORBS2_186605907_186605996" id="89" weight="-0.11631993456328554" />
+      <edge source="QKI" target="SRSF11_70697541_70697658" id="90" weight="-0.07794328096056474" />
+      <edge source="QKI" target="ERC1_1221380_1221473" id="91" weight="0.13030212618598228" />
+      <edge source="QKI" target="SMG7_183516237_183516387" id="92" weight="-0.08240568254227647" />
+      <edge source="QKI" target="RAI14_34813678_34813765" id="93" weight="-0.11661742800206633" />
+      <edge source="QKI" target="SEC16A_139339503_139339563" id="94" weight="0.12137732302255881" />
+      <edge source="QKI" target="SORBS2_186605907_186606000" id="95" weight="-0.10174275606302725" />
+      <edge source="QKI" target="FN1_216257653_216257926" id="96" weight="-0.06931597123592208" />
+      <edge source="QKI" target="STX2_131280539_131280665" id="97" weight="-0.08329816285861881" />
+      <edge source="QKI" target="NDEL1_8366637_8366672" id="98" weight="0.11840238863475101" />
+      <edge source="QKI" target="GGCX_85779607_85779690" id="99" weight="0.06515106309299114" />
+      <edge source="QKI" target="GIT2_110383064_110383154" id="100" weight="0.17819856982968807" />
+      <edge source="QKI" target="FN1_216245533_216245803" id="101" weight="-0.059498687756156285" />
+      <edge source="QKI" target="SEPT6_118759297_118759359" id="102" weight="-0.0577137271234716" />
+      <edge source="QKI" target="FNBP1_132686122_132686275" id="103" weight="0.055333779613225345" />
+      <edge source="QKI" target="GLS_191777918_191778090" id="104" weight="-0.026476916051489545" />
+      <edge source="QKI" target="CAST_96062497_96062563" id="105" weight="0.024096968541243297" />
+      <edge source="QKI" target="CAST_96062457_96062563" id="106" weight="0.019932060398312357" />
+      <edge source="QKI" target="FOXN3_89656730_89656793" id="107" weight="0.04016161423540549" />
+      <edge source="QKI" target="A1CF_52622648_52622741" id="108" weight="-0.09311544633838459" />
+      <edge source="QKI" target="FOXN3_89656727_89656793" id="109" weight="0.03480673233735143" />
+      <edge source="QKI" target="UAP1_162562524_162562572" id="110" weight="0.10144526262424647" />
+      <edge source="QKI" target="FN1_216236975_216237023" id="111" weight="0.03421174545978987" />
+      <edge source="QKI" target="NF1_29579955_29580018" id="112" weight="0.1011477691854657" />
+      <edge source="QKI" target="REPS1_139247537_139247615" id="113" weight="-0.12762468523695522" />
+      <edge source="QKI" target="SEPP1_42804757_42804813" id="114" weight="-0.00208245407146547" />
+      <edge source="QKI" target="MAGI1_65361419_65361587" id="115" weight="-0.08627309724642661" />
+      <edge source="QKI" target="MLLT4_168314082_168314103" id="116" weight="0.030344330755639703" />
+      <edge source="QKI" target="MAGI1_65361419_65361620" id="117" weight="-0.08597560380764582" />
+      <edge source="QKI" target="MEAF6_37962147_37962205" id="118" weight="0.029451850439297364" />
+      <edge source="QKI" target="SREK1_65451892_65454760" id="119" weight="-0.03807916016394002" />
+      <edge source="QKI" target="NCOA4_51576310_51576499" id="120" weight="0.009817283479765787" />
+      <edge source="QKI" target="MLLT10_21840744_21840850" id="121" weight="-0.02588192917392798" />
+      <edge source="QKI" target="GSN_124062342_124062404" id="122" weight="-0.09519790040985006" />
+      <edge source="QKI" target="MLLT4_168294541_168294586" id="123" weight="-0.02112203415343548" />
+      <edge source="QKI" target="MAGI1_65361419_65361623" id="124" weight="-0.08032322847081098" />
+      <edge source="QKI" target="NCOA4_51576366_51576499" id="125" weight="0.005949868775615629" />
+      <edge source="QKI" target="ANGPTL1_178838248_178838358" id="126" weight="-0.15291162753332166" />
+      <edge source="QKI" target="SRSF11_70696777_70696886" id="127" weight="-0.01011477691854657" />
+      <edge source="QKI" target="TIAF1_27412621_27412666" id="128" weight="0.09222296602204225" />
+      <edge source="QKI" target="DHRS2_24108035_24108213" id="129" weight="0.0026774409490270324" />
+      <edge source="QKI" target="NF2_30079008_30079053" id="130" weight="0.09192547258326146" />
+      <edge source="QKI" target="PRPF40A_153535569_153535623" id="131" weight="0.09162797914448068" />
+      <edge source="QKI" target="SUPT20H_37584688_37584792" id="132" weight="-0.08032322847081098" />
+      <edge source="QKI" target="MST1P2_16974278_16974447" id="133" weight="-0.045219002694678774" />
+      <edge source="QKI" target="TIAL1_121339982_121340050" id="134" weight="-0.022609501347339387" />
+      <edge source="QKI" target="HSD17B7P2_38650207_38650250" id="135" weight="0.07972824159324943" />
+      <edge source="QKI" target="HMGN1_40717755_40717884" id="136" weight="-0.07943074815446864" />
+      <edge source="QKI" target="GSN_124062333_124062404" id="137" weight="-0.08805805787911129" />
+      <edge source="QKI" target="PREPL_44586635_44586889" id="138" weight="0.08746307100154974" />
+      <edge source="QKI" target="A1CF_52622635_52622741" id="139" weight="-0.07734829408300317" />
+      <edge source="QKI" target="SRRT_100480385_100480711" id="140" weight="-0.04045910767418628" />
+      <edge source="QKI" target="PREPL_44586635_44586735" id="141" weight="0.08567811036886504" />
+      <edge source="QKI" target="AKAP9_91671359_91671500" id="142" weight="-0.16481136508455294" />
+      <edge source="QKI" target="ARVCF_19958738_19958858" id="143" weight="-0.0752658400115377" />
+      <edge source="QKI" target="KIAA1109_123247009_123247072" id="144" weight="0.08419064317496114" />
+      <edge source="QKI" target="ACACA_35685777_35685925" id="145" weight="-0.09430542009350772" />
+      <edge source="QKI" target="PICALM_85689112_85689136" id="146" weight="0.15796901599259494" />
+      <edge source="QKI" target="FMNL2_153501947_153501994" id="147" weight="0.06931597123592208" />
+      <edge source="QKI" target="CASK_41414852_41414888" id="148" weight="0.15588656192112949" />
+      <edge source="QKI" target="SORBS2_186572937_186572982" id="149" weight="-0.08121570878715334" />
+      <edge source="QKI" target="ACIN1_23536522_23537880" id="150" weight="-0.06009367463371785" />
+      <edge source="QKI" target="PREPL_44586635_44587177" id="151" weight="0.0752658400115377" />
+      <edge source="QKI" target="PRMT2_48056350_48056459" id="152" weight="0.0752658400115377" />
+      <edge source="QKI" target="LPIN1_11916211_11916319" id="153" weight="0.0752658400115377" />
+      <edge source="QKI" target="LRCH3_197585704_197585776" id="154" weight="-0.12107982958377803" />
+      <edge source="QKI" target="CLIP1_122831921_122832026" id="155" weight="-0.08567811036886504" />
+      <edge source="QKI" target="HNRNPH1_179046269_179046361" id="156" weight="0.019932060398312357" />
+      <edge source="QKI" target="SERPINA1_94849340_94849578" id="157" weight="-0.009519790040985006" />
+      <edge source="QKI" target="RPP40_5000796_5000865" id="158" weight="-0.04551649613345956" />
+      <edge source="QKI" target="ANKRD10_111552876_111553041" id="159" weight="-0.07050594499104519" />
+      <edge source="QKI" target="PRMT2_48056314_48056459" id="160" weight="0.06396108933786801" />
+      <edge source="QKI" target="RBM5_50141680_50141741" id="161" weight="0.06396108933786801" />
+      <edge source="QKI" target="NF2_30079008_30079068" id="162" weight="0.06366359589908722" />
+      <edge source="QKI" target="DCAF6_167992225_167992285" id="163" weight="-0.049978897715171285" />
+      <edge source="QKI" target="MYO1B_192267357_192267444" id="164" weight="-0.06128364838884097" />
+      <edge source="QKI" target="SRSF1_56082774_56082978" id="165" weight="0.06098615495006019" />
+      <edge source="QKI" target="ANKRD10_111552876_111553008" id="166" weight="-0.058308714001033164" />
+      <edge source="QKI" target="TBCK_107115874_107115911" id="167" weight="0.05473879273566378" />
+      <edge source="QKI" target="ATF2_175986171_175986268" id="168" weight="-0.038674147041501586" />
+      <edge source="QKI" target="NUMB_73783097_73783130" id="169" weight="0.13059961962476305" />
+      <edge source="QKI" target="TMPO_98938728_98938839" id="170" weight="0.05503628617444456" />
+      <edge source="QKI" target="ORC3_88326031_88326145" id="171" weight="-0.03421174545978987" />
+      <edge source="QKI" target="STRN3_31398406_31398517" id="172" weight="-0.047003963327363465" />
+      <edge source="QKI" target="NOP58_203164808_203164860" id="173" weight="-0.03302177170466674" />
+      <edge source="QKI" target="ACOT9_23752457_23752484" id="174" weight="0.04670646988858269" />
+      <edge source="QKI" target="KTN1_56139889_56139973" id="175" weight="0.04611148301102112" />
+      <edge source="QKI" target="RP11-206L10.11_783033_783186" id="176" weight="-0.059498687756156285" />
+      <edge source="QKI" target="SRSF1_56082758_56082978" id="177" weight="0.04462401581711721" />
+      <edge source="QKI" target="RPL30_99057054_99057221" id="178" weight="-0.060391168072498634" />
+      <edge source="QKI" target="FARS2_5368782_5369415" id="179" weight="0.043136548623213304" />
+      <edge source="QKI" target="AP1G2_24035770_24035987" id="180" weight="-0.028261876684174236" />
+      <edge source="QKI" target="C4BPB_207269866_207269960" id="181" weight="-0.007437335969519536" />
+      <edge source="QKI" target="DYNC1I2_172569276_172569336" id="182" weight="-0.0255844357351472" />
+      <edge source="QKI" target="FMNL2_153501947_153502041" id="183" weight="0.024989448857585642" />
+      <edge source="QKI" target="VPS29_110936624_110936664" id="184" weight="-0.024096968541243297" />
+      <edge source="QKI" target="GK_30686128_30686235" id="185" weight="-0.022609501347339387" />
+      <edge source="QKI" target="CARKD_111274562_111274713" id="186" weight="-0.02112203415343548" />
+      <edge source="QKI" target="AP1G2_24035726_24035895" id="187" weight="-0.02112203415343548" />
+      <edge source="QKI" target="SLC44A1_108098847_108098922" id="188" weight="-0.005057388459273285" />
+      <edge source="QKI" target="REPS1_139247537_139247618" id="189" weight="-0.07734829408300317" />
+      <edge source="QKI" target="GK_30686141_30686235" id="190" weight="-0.01903958008197001" />
+      <edge source="QKI" target="CLTB_175823479_175823533" id="191" weight="-0.016362139132942977" />
+      <edge source="QKI" target="PUM2_20526021_20526146" id="192" weight="-0.016064645694162195" />
+      <edge source="QKI" target="C2CD5_22671973_22672173" id="193" weight="-0.014874671939039071" />
+      <edge source="QKI" target="PHKB_47667809_47667892" id="194" weight="-0.007734829408300317" />
+      <edge source="QKI" target="AP1G2_24035770_24035895" id="195" weight="-0.013684698183915945" />
+      <edge source="QKI" target="ACSS3_81540080_81540131" id="196" weight="-0.008627309724642662" />
+      <edge source="QKI" target="ACN9_96765699_96765779" id="197" weight="-0.012494724428792821" />
+      <edge source="QKI" target="AKR7A2_19633807_19633904" id="198" weight="0.009817283479765787" />
+      <edge source="QKI" target="KAT2A_40271071_40271191" id="199" weight="-0.032724278265885955" />
+      <edge source="QKI" target="D2HGDH_242688279_242689344" id="200" weight="-0.07377837281763379" />
+      <edge source="QKI" target="ZNF140_133677572_133677639" id="201" weight="0.16391888476821057" />
+      <edge source="QKI" target="ERBB2IP_65364704_65364848" id="202" weight="-0.11899737551231257" />
+      <edge source="QKI" target="A1CF_52622648_52622774" id="203" weight="-0.04373153550077487" />
+      <edge source="QKI" target="ARHGAP17_24939004_24939053" id="204" weight="0.026774409490270327" />
+      <edge source="QKI" target="SRSF1_56082758_56082961" id="205" weight="0.023501981663681733" />
+      <edge source="QKI" target="SRSF1_56082774_56082961" id="206" weight="0.02320448822490095" />
+      <edge source="QKI" target="SERPINA11_94912667_94912785" id="207" weight="0.02320448822490095" />
+      <edge source="QKI" target="SERPINA11_94912667_94912789" id="208" weight="0.02290699478612017" />
+      <edge source="QKI" target="SERPINA11_94912667_94912861" id="209" weight="0.02290699478612017" />
+      <edge source="QKI" target="STXBP5_147660314_147660374" id="210" weight="0.030344330755639703" />
+      <edge source="QKI" target="LMO7_76429395_76429504" id="211" weight="0.02112203415343548" />
+      <edge source="QKI" target="USO1_76716488_76716509" id="212" weight="0.020824540714654702" />
+      <edge source="QKI" target="APP_27372329_27372497" id="213" weight="0.019932060398312357" />
+      <edge source="QKI" target="EVL_100604076_100604139" id="214" weight="0.019337073520750793" />
+      <edge source="QKI" target="GCKR_27720428_27720497" id="215" weight="-0.019337073520750793" />
+      <edge source="QKI" target="EIF4G2_10823207_10823294" id="216" weight="-0.028261876684174236" />
+      <edge source="QKI" target="ARSE_2876314_2876476" id="217" weight="0.0175521128880661" />
+      <edge source="QKI" target="SORBS2_186515039_186515089" id="218" weight="0.01695712601050454" />
+      <edge source="QKI" target="RTN4_55255299_55255356" id="219" weight="-0.01665963257172376" />
+      <edge source="QKI" target="BTD_15643680_15643817" id="220" weight="0.007437335969519536" />
+      <edge source="QKI" target="TMEM39A_119154601_119154782" id="221" weight="0.014577178500258291" />
+      <edge source="QKI" target="CLSTN1_9816538_9816568" id="222" weight="0.00832981628586188" />
+      <edge source="QKI" target="SERPINA11_94912667_94912941" id="223" weight="0.009519790040985006" />
+      <edge source="QKI" target="CCNY_35814891_35814927" id="224" weight="0.010412270357327351" />
+      <edge source="QKI" target="POFUT1_30797873_30797995" id="225" weight="-0.010412270357327351" />
+      <edge source="QKI" target="GAS5_173833621_173833644" id="226" weight="0.011304750673669694" />
+      <edge source="QKI" target="PTPRF_44069281_44069860" id="227" weight="0.011007257234888912" />
+      <edge source="QKI" target="EIF4G2_10823207_10823321" id="228" weight="-0.022312007908558605" />
+      <edge source="QKI" target="PIEZO2_10735229_10735328" id="229" weight="-0.02141952759221626" />
+      <edge source="QKI" target="NAALAD2_89892406_89892505" id="230" weight="-0.11245251985913537" />
+      <edge source="QKI" target="ABLIM1_116207638_116207779" id="231" weight="-0.016362139132942977" />
+      <edge source="QKI" target="ELP2_33713200_33713279" id="232" weight="0.013684698183915945" />
+      <edge source="QKI" target="CD46_207940951_207940996" id="233" weight="-0.01011477691854657" />
+      <edge source="QKI" target="SNAP23_42813811_42813906" id="234" weight="-0.011007257234888912" />
+      <edge source="QKI" target="NAPB_23375775_23375899" id="235" weight="-0.1216748164613396" />
+      <edge source="QKI" target="ROBO1_78696778_78696805" id="236" weight="-0.11929486895109336" />
+      <edge source="QKI" target="ECHDC2_53370705_53372283" id="237" weight="-0.04551649613345956" />
+      <edge source="QKI" target="CEACAM1_43015727_43015780" id="238" weight="-0.11156003954279303" />
+      <edge source="QKI" target="NOP58_203164701_203164860" id="239" weight="-0.040756601112967056" />
+      <edge source="QKI" target="SLMAP_57911571_57911661" id="240" weight="0.10590766420595818" />
+      <edge source="QKI" target="ATP5J_27106480_27106686" id="241" weight="-0.0023799475102462514" />
+      <edge source="QKI" target="TJAP1_43457636_43457766" id="242" weight="-0.01219723099001204" />
+      <edge source="QKI" target="NAB1_191518452_191518506" id="243" weight="-0.13922692934940573" />
+      <edge source="QKI" target="ACAT2_160189542_160189582" id="244" weight="-0.10144526262424647" />
+      <edge source="QKI" target="IDI1_1089938_1090111" id="245" weight="0.02320448822490095" />
+      <edge source="RBFOX2" target="DIAPH1_140967790_140967817" id="246" weight="0.26901540190228845" />
+      <edge source="RBFOX2" target="MPRIP_17083920_17083983" id="247" weight="0.20628986554851295" />
+      <edge source="RBFOX2" target="HGD_120365113_120365213" id="248" weight="0.06775699648910506" />
+      <edge source="RBFOX2" target="MYO9B_17321141_17321189" id="249" weight="0.2032709894673152" />
+      <edge source="RBFOX2" target="ITPR2_26555775_26555956" id="250" weight="-0.004360598783952306" />
+      <edge source="RBFOX2" target="EPB41L2_131201283_131201346" id="251" weight="0.19186634649390144" />
+      <edge source="RBFOX2" target="CTTN_70267575_70267642" id="252" weight="0.13819743838371923" />
+      <edge source="RBFOX2" target="MALT1_56378152_56378185" id="253" weight="0.2230613993329449" />
+      <edge source="RBFOX2" target="ACAA1_38167652_38167843" id="254" weight="0.05467520013724815" />
+      <edge source="RBFOX2" target="CTTN_70267575_70267669" id="255" weight="0.13048253284288056" />
+      <edge source="RBFOX2" target="ACAA1_38167652_38167832" id="256" weight="0.04964374000191856" />
+      <edge source="RBFOX2" target="PEG3_57345010_57345131" id="257" weight="0.047295725272098084" />
+      <edge source="RBFOX2" target="FKBP10_39976958_39977092" id="258" weight="-0.004696029459640945" />
+      <edge source="RBFOX2" target="GGT1_25004956_25005198" id="259" weight="0.026834454055091116" />
+      <edge source="RBFOX2" target="GOLIM4_167758573_167758657" id="260" weight="0.23010544352240633" />
+      <edge source="RBFOX2" target="IQSEC1_12944272_12944322" id="261" weight="0.10901496959880766" />
+      <edge source="RBFOX2" target="CTTN_70267575_70267686" id="262" weight="0.10029377203090303" />
+      <edge source="RBFOX2" target="GLYCTK_52325760_52325938" id="263" weight="-0.14524148257318065" />
+      <edge source="RBFOX2" target="GLYCTK_52325774_52325938" id="264" weight="-0.14155174514060562" />
+      <edge source="RBFOX2" target="GCKR_27728584_27728703" id="265" weight="0.08385766892215973" />
+      <edge source="RBFOX2" target="LMO7_76383289_76383319" id="266" weight="0.2153464937921062" />
+      <edge source="RBFOX2" target="GPR126_142762044_142762090" id="267" weight="0.21299847906228572" />
+      <edge source="RBFOX2" target="SNRNP70_49605370_49606844" id="268" weight="-0.008721197567904612" />
+      <edge source="RBFOX2" target="GLYCTK_52325812_52325938" id="269" weight="-0.12377391932910776" />
+      <edge source="RBFOX2" target="KIAA1984_139701732_139701804" id="270" weight="-0.07480104067856648" />
+      <edge source="RBFOX2" target="LRRFIP2_37132957_37133029" id="271" weight="0.17945541149342184" />
+      <edge source="RBFOX2" target="UTRN_145148483_145148522" id="272" weight="0.20293555879162656" />
+      <edge source="RBFOX2" target="EPB41_29386933_29386996" id="273" weight="0.20192926676456063" />
+      <edge source="RBFOX2" target="GOLGA2_131029472_131029538" id="274" weight="-0.06440268973221867" />
+      <edge source="RBFOX2" target="TIAF1_27412621_27412666" id="275" weight="0.20125840541318335" />
+      <edge source="RBFOX2" target="GOLGA2_131029472_131029553" id="276" weight="-0.06004209094826637" />
+      <edge source="RBFOX2" target="SF1_64533525_64533627" id="277" weight="0.06004209094826637" />
+      <edge source="RBFOX2" target="NEDD4L_55712303_55712434" id="278" weight="-0.059371229596889084" />
+      <edge source="RBFOX2" target="NEDD4L_55712303_55712532" id="279" weight="-0.05903579892120045" />
+      <edge source="RBFOX2" target="RNPEPL1_241513191_241513308" id="280" weight="-0.16436103108743308" />
+      <edge source="RBFOX2" target="SF1_64533422_64533627" id="281" weight="0.055010630812936785" />
+      <edge source="RBFOX2" target="CTTN_70268614_70268737" id="282" weight="0.026499023379402475" />
+      <edge source="RBFOX2" target="BCL2L2-PABPN1_23778024_23778141" id="283" weight="-0.08385766892215973" />
+      <edge source="RBFOX2" target="FAM126A_22986570_22986866" id="284" weight="0.19488522257509922" />
+      <edge source="RBFOX2" target="IL17RB_53892597_53892637" id="285" weight="-0.06641527378635051" />
+      <edge source="RBFOX2" target="MST1P2_16974278_16974447" id="286" weight="-0.07681362473269832" />
+      <edge source="RBFOX2" target="RPS5_58904725_58904854" id="287" weight="-0.01509438040598875" />
+      <edge source="RBFOX2" target="EVI5_93128976_93129009" id="288" weight="0.18448687162875144" />
+      <edge source="RBFOX2" target="GLYR1_4867840_4867933" id="289" weight="-0.013752657703234196" />
+      <edge source="RBFOX2" target="PSMD6_64008318_64008477" id="290" weight="-0.011069212297725086" />
+      <edge source="RBFOX2" target="ABI1_27044583_27044670" id="291" weight="0.17610110473653545" />
+      <edge source="RBFOX2" target="SORBS1_97174250_97174619" id="292" weight="0.14356432919473747" />
+      <edge source="RBFOX2" target="NSMF_140349197_140349422" id="293" weight="-0.010733781622036446" />
+      <edge source="RBFOX2" target="DHRS2_24109002_24109062" id="294" weight="-0.00301887608119775" />
+      <edge source="RBFOX2" target="ABCC2_101556853_101557088" id="295" weight="0.006373182838084139" />
+      <edge source="RBFOX2" target="FN1_216257653_216257926" id="296" weight="0.025492731352336557" />
+      <edge source="RBFOX2" target="WFS1_6295984_6296115" id="297" weight="0.007044044189461418" />
+      <edge source="RBFOX2" target="AHSG_186336079_186336177" id="298" weight="0.007714905540838695" />
+      <edge source="RBFOX2" target="SNHG6_67834558_67834627" id="299" weight="-0.008050336216527334" />
+      <edge source="RBFOX2" target="MAP3K7_91254270_91254351" id="300" weight="-0.12478021135617368" />
+      <edge source="RBFOX2" target="APBB2_40937093_40937156" id="301" weight="0.16067129365485805" />
+      <edge source="RBFOX2" target="FN1_216257800_216257926" id="302" weight="0.016436103108743307" />
+      <edge source="RBFOX2" target="PICALM_85689112_85689136" id="303" weight="0.13987459176216244" />
+      <edge source="RBFOX2" target="P2RX4_121671066_121671124" id="304" weight="0.014088088378922836" />
+      <edge source="RBFOX2" target="PTK2_141679825_141679834" id="305" weight="-0.014423519054611473" />
+      <edge source="RBFOX2" target="ASL_65551730_65551808" id="306" weight="-0.01542981108167739" />
+      <edge source="RBFOX2" target="EPB41L1_34797409_34797820" id="307" weight="0.15362724946539663" />
+      <edge source="RBFOX2" target="GSN_124062333_124062404" id="308" weight="0.1378620077080306" />
+      <edge source="RBFOX2" target="SORBS1_97174250_97174412" id="309" weight="0.14457062122180336" />
+      <edge source="RBFOX2" target="GSN_124062342_124062404" id="310" weight="0.13115339419425784" />
+      <edge source="RBFOX2" target="UAP1_162562521_162562572" id="311" weight="0.1361848543295874" />
+      <edge source="RBFOX2" target="LINC00963_132255694_132255874" id="312" weight="-0.20830244960264477" />
+      <edge source="RBFOX2" target="FAM126A_22986651_22986866" id="313" weight="0.13283054757270102" />
+      <edge source="RBFOX2" target="GNAS_57475003_57475080" id="314" weight="-0.004360598783952306" />
+      <edge source="RBFOX2" target="UAP1_162562524_162562572" id="315" weight="0.1301471021671919" />
+      <edge source="RBFOX2" target="ARHGAP17_24939004_24939053" id="316" weight="0.1284699487887487" />
+      <edge source="RBFOX2" target="NDEL1_8366637_8366672" id="317" weight="0.1274636567616828" />
+      <edge source="RBFOX2" target="GNAS_57475003_57475085" id="318" weight="-0.021467563244072892" />
+      <edge source="RBFOX2" target="NPHP3_132415574_132415657" id="319" weight="0.0758073327056324" />
+      <edge source="RBFOX2" target="KLC1_104158695_104158762" id="320" weight="0.05568149216431407" />
+      <edge source="RBFOX2" target="EXOC3L4_103573967_103574120" id="321" weight="-0.07513647135425512" />
+      <edge source="RBFOX2" target="GCFC2_75929438_75929573" id="322" weight="0.2834389209568999" />
+      <edge source="RBFOX2" target="F2_46748047_46748125" id="323" weight="-0.00301887608119775" />
+      <edge source="RBFOX2" target="PLXNB2_50723001_50723034" id="324" weight="-0.03890995837988212" />
+      <edge source="RBFOX2" target="SLC35E1_16678842_16678980" id="325" weight="-0.055010630812936785" />
+      <edge source="RBFOX2" target="SORBS2_186605907_186606000" id="326" weight="-0.1888474704127037" />
+      <edge source="RBFOX2" target="PKP4_159518073_159518180" id="327" weight="0.005702321486706862" />
+      <edge source="RBFOX2" target="ITIH3_52832233_52832289" id="328" weight="0.0060377521623955" />
+      <edge source="RBFOX2" target="SORBS2_186605907_186605996" id="329" weight="-0.1868348863585719" />
+      <edge source="RBFOX2" target="LONP1_5707707_5707837" id="330" weight="-0.016771533784431948" />
+      <edge source="RBFOX2" target="CTTN_70268614_70268698" id="331" weight="0.01509438040598875" />
+      <edge source="RBFOX2" target="MICAL3_18295272_18295323" id="332" weight="0.09727489594970529" />
+      <edge source="RBFOX2" target="TBRG4_45144136_45144308" id="333" weight="-0.09593317324695072" />
+      <edge source="RBFOX2" target="RALGAPA1_36017713_36017744" id="334" weight="0.09593317324695072" />
+      <edge source="RBFOX2" target="C9orf3_97781731_97782515" id="335" weight="-0.04461227986658898" />
+      <edge source="RBFOX2" target="ACADVL_7124837_7125001" id="336" weight="-0.03890995837988212" />
+      <edge source="RBFOX2" target="ACADVL_7124856_7125001" id="337" weight="-0.0379036663528162" />
+      <edge source="RBFOX2" target="PHC2_33800766_33800960" id="338" weight="0.07513647135425512" />
+      <edge source="RBFOX2" target="ENAH_225692692_225692755" id="339" weight="0.18146799554755366" />
+      <edge source="RBFOX2" target="IRF3_50167930_50168103" id="340" weight="-0.07178216459736873" />
+      <edge source="RBFOX2" target="NSFL1C_1436358_1436515" id="341" weight="0.008721197567904612" />
+      <edge source="RBFOX2" target="ZC3H18_88677675_88677944" id="342" weight="-0.08519939162491429" />
+      <edge source="RBFOX2" target="PPP1R12A_80199945_80200113" id="343" weight="0.08285137689509381" />
+      <edge source="RBFOX2" target="KLC1_104151322_104151373" id="344" weight="-0.08251594621940518" />
+      <edge source="RBFOX2" target="PPP1R12A_80199945_80200077" id="345" weight="0.08083879284096197" />
+      <edge source="RBFOX2" target="SMPD4_130918758_130918845" id="346" weight="0.07849077811114151" />
+      <edge source="RBFOX2" target="SLC44A2_10753572_10753697" id="347" weight="0.07614276338132105" />
+      <edge source="RBFOX2" target="RPL17_47018115_47018203" id="348" weight="0.05366890811018223" />
+      <edge source="RBFOX2" target="NUMA1_71723446_71723488" id="349" weight="0.07111130324599145" />
+      <edge source="RBFOX2" target="RALGAPA2_20377338_20377378" id="350" weight="0.06708613513772779" />
+      <edge source="RBFOX2" target="MACF1_39930766_39930784" id="351" weight="0.06507355108359596" />
+      <edge source="RBFOX2" target="PPP6R2_50875494_50875497" id="352" weight="0.04494771054227762" />
+      <edge source="RBFOX2" target="AP1G1_71801779_71801788" id="353" weight="0.06272553635377548" />
+      <edge source="RBFOX2" target="MAGI1_65433696_65433732" id="354" weight="0.06171924432670956" />
+      <edge source="RBFOX2" target="ZFYVE21_104196129_104196183" id="355" weight="0.060377521623955" />
+      <edge source="RBFOX2" target="NAALADL1_64814946_64815037" id="356" weight="0.060377521623955" />
+      <edge source="RBFOX2" target="WBP1_74686123_74686225" id="357" weight="0.1663736151415649" />
+      <edge source="RBFOX2" target="FCGRT_50028713_50028830" id="358" weight="-0.0033543067568863895" />
+      <edge source="RBFOX2" target="ZNF267_31901527_31901571" id="359" weight="0.05769407621844589" />
+      <edge source="RBFOX2" target="IP6K2_48732126_48732369" id="360" weight="0.036226512974373" />
+      <edge source="RBFOX2" target="HMGN1_40719841_40719878" id="361" weight="0.05702321486706862" />
+      <edge source="RBFOX2" target="COL27A1_117029783_117029837" id="362" weight="-0.005366890811018223" />
+      <edge source="RBFOX2" target="ALDOA_30077196_30077248" id="363" weight="-0.0060377521623955" />
+      <edge source="RBFOX2" target="FGFR1OP_167426995_167427017" id="364" weight="0.05400433878587087" />
+      <edge source="RBFOX2" target="ASGR1_7080528_7080645" id="365" weight="-0.0318659141904207" />
+      <edge source="RBFOX2" target="TTL_113277858_113277961" id="366" weight="0.05366890811018223" />
+      <edge source="RBFOX2" target="ETV4_41620338_41620414" id="367" weight="-0.005702321486706862" />
+      <edge source="RBFOX2" target="CNNM2_104831530_104831596" id="368" weight="0.05333347743449359" />
+      <edge source="RBFOX2" target="AFMID_76200908_76200981" id="369" weight="-0.028847038109222945" />
+      <edge source="RBFOX2" target="PDIA5_122870296_122870507" id="370" weight="0.007714905540838695" />
+      <edge source="RBFOX2" target="DMTN_21924595_21924670" id="371" weight="0.028176176757845672" />
+      <edge source="RBFOX2" target="TXLNG2P_21757872_21758020" id="372" weight="-0.051320893380361755" />
+      <edge source="RBFOX2" target="ACAA1_38167818_38167832" id="373" weight="0.027169884730779754" />
+      <edge source="RBFOX2" target="RAN_131357128_131357174" id="374" weight="-0.007379474865150056" />
+      <edge source="RBFOX2" target="FAM49B_130891634_130891717" id="375" weight="0.049979170677607196" />
+      <edge source="RBFOX2" target="NSMF_140349197_140349373" id="376" weight="-0.010733781622036446" />
+      <edge source="RBFOX2" target="CLSTN1_9797555_9797612" id="377" weight="0.008721197567904612" />
+      <edge source="RBFOX2" target="DHRS2_24108049_24108213" id="378" weight="-0.01911954851425242" />
+      <edge source="RBFOX2" target="DHRS2_24108013_24108213" id="379" weight="-0.01911954851425242" />
+      <edge source="RBFOX2" target="PTTG1IP_46284820_46285066" id="380" weight="0.012075504324791" />
+      <edge source="RBFOX2" target="NSFL1C_1436358_1436364" id="381" weight="0.04863744797485264" />
+      <edge source="RBFOX2" target="LARP1_154173359_154173560" id="382" weight="0.013081796351856918" />
+      <edge source="RBFOX2" target="MTSS1L_70713012_70713226" id="383" weight="-0.019790409865629695" />
+      <edge source="RBFOX2" target="IQSEC1_12956603_12956633" id="384" weight="-0.01945497918994106" />
+      <edge source="RBFOX2" target="DVL3_183882900_183882976" id="385" weight="0.01878411783856378" />
+      <edge source="RBFOX2" target="ACAA1_38167818_38167843" id="386" weight="0.018448687162875142" />
+      <edge source="RBFOX2" target="TXLNG2P_21757900_21758020" id="387" weight="-0.046960294596409456" />
+      <edge source="RBFOX2" target="EPS8L2_721902_721991" id="388" weight="-0.013752657703234196" />
+      <edge source="RBFOX2" target="YY1AP1_155638417_155638588" id="389" weight="0.044276849190900344" />
+      <edge source="RBFOX2" target="SLC35B1_47784704_47784806" id="390" weight="0.04360598783952306" />
+      <edge source="RBFOX2" target="STK25_242440892_242441123" id="391" weight="-0.03723280500143892" />
+      <edge source="RBFOX2" target="EPB41L2_131199243_131199390" id="392" weight="0.027505315406468393" />
+      <edge source="RBFOX2" target="HERC2P2_23285704_23285752" id="393" weight="-0.004696029459640945" />
+      <edge source="RBFOX2" target="PAH_103260373_103260441" id="394" weight="0.004696029459640945" />
+      <edge source="RBFOX2" target="ZC3H13_46550316_46550400" id="395" weight="0.004696029459640945" />
+      <edge source="RBFOX2" target="NFATC3_68248231_68248335" id="396" weight="0.034213928920241166" />
+      <edge source="RBFOX2" target="SETD5_9476246_9476314" id="397" weight="0.03387849824455253" />
+      <edge source="RBFOX2" target="INSR_7150507_7150543" id="398" weight="0.03253677554179798" />
+      <edge source="RBFOX2" target="ZMYND8_45848908_45848975" id="399" weight="-0.0060377521623955" />
+      <edge source="RBFOX2" target="DLGAP4_35127644_35127724" id="400" weight="0.006373182838084139" />
+      <edge source="RBFOX2" target="GPX3_150400388_150400814" id="401" weight="-0.006708613513772779" />
+      <edge source="RBFOX2" target="CLTC_57764361_57764382" id="402" weight="0.008050336216527334" />
+      <edge source="RBFOX2" target="ZNF721_461405_461470" id="403" weight="0.024151008649582" />
+      <edge source="RBFOX2" target="AK4_65613960_65614235" id="404" weight="-0.023480147298204728" />
+      <edge source="RBFOX2" target="MMAB_110006574_110006668" id="405" weight="-0.00972748959497053" />
+      <edge source="RBFOX2" target="NADK_1688177_1688321" id="406" weight="-0.010733781622036446" />
+      <edge source="RBFOX2" target="YY1AP1_155638417_155638568" id="407" weight="0.010733781622036446" />
+      <edge source="RBFOX2" target="MFF_228217229_228217289" id="408" weight="0.020461271217006975" />
+      <edge source="RBFOX2" target="DCAF8_160194851_160194909" id="409" weight="-0.01945497918994106" />
+      <edge source="RBFOX2" target="ECT2_172473272_172473365" id="410" weight="0.01911954851425242" />
+      <edge source="RBFOX2" target="PIGT_44047491_44047619" id="411" weight="0.012075504324791" />
+      <edge source="RBFOX2" target="WDR59_74921580_74921653" id="412" weight="0.0181132564871865" />
+      <edge source="RBFOX2" target="ADRM1_60879516_60879633" id="413" weight="-0.012746365676168278" />
+      <edge source="RBFOX2" target="NADK_1688217_1688321" id="414" weight="-0.012746365676168278" />
+      <edge source="RBFOX2" target="KLF6_3825407_3825473" id="415" weight="0.013081796351856918" />
+      <edge source="RBFOX2" target="MYL6_56554409_56554454" id="416" weight="0.01542981108167739" />
+      <edge source="RBFOX2" target="FBXO31_87392016_87392103" id="417" weight="0.01509438040598875" />
+      <edge source="RBFOX2" target="UGGT1_128913965_128913989" id="418" weight="0.1388682997350965" />
+      <edge source="RBFOX2" target="AC084018.1_122239477_122239514" id="419" weight="0.1318242555456351" />
+      <edge source="RBFOX2" target="LINC00963_132255697_132255874" id="420" weight="-0.1257865033832396" />
+      <edge source="RBFOX2" target="KIF13A_17790102_17790141" id="421" weight="0.1257865033832396" />
+      <edge source="RBFOX2" target="INF2_105181620_105181677" id="422" weight="0.12276762730204184" />
+      <edge source="RBFOX2" target="ZNF3_99677162_99677279" id="423" weight="-0.07312388730012329" />
+      <edge source="RBFOX2" target="ERBB2IP_65364704_65364848" id="424" weight="-0.022138424595450172" />
+      <edge source="RBFOX2" target="OSBPL3_24888687_24888795" id="425" weight="0.11169841500431676" />
+      <edge source="RBFOX2" target="ARHGEF10L_17961042_17961057" id="426" weight="0.1110275536529395" />
+      <edge source="RBFOX2" target="TBX3_115117717_115117777" id="427" weight="0.05702321486706862" />
+      <edge source="RBFOX2" target="KHK_27315199_27315316" id="428" weight="-0.10566066284192126" />
+      <edge source="RBFOX2" target="FOXM1_2974520_2974565" id="429" weight="0.10465437081485535" />
+      <edge source="RBFOX2" target="NAV2_20072834_20072879" id="430" weight="0.1043189401391667" />
+      <edge source="RBFOX2" target="ASGR2_7012054_7012207" id="431" weight="0.09895204932814848" />
+      <edge source="RBFOX2" target="RPS24_79799961_79799983" id="432" weight="0.033543067568863896" />
+      <edge source="RBFOX2" target="COBLL1_165559613_165559730" id="433" weight="-0.03253677554179798" />
+      <edge source="RBFOX2" target="UBAP2L_154214175_154214273" id="434" weight="0.03756823567712756" />
+      <edge source="RBFOX2" target="PKP4_159533250_159533379" id="435" weight="-0.03085962216335478" />
+      <edge source="RBFOX2" target="RPS24_79799958_79799983" id="436" weight="0.03085962216335478" />
+    </edges>
+  </graph>
+</gexf>
