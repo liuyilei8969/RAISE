@@ -3,14 +3,14 @@ import pandas as pd
 import networkx as nx
 import argparse
 
-def build_splicing_network(TARGET_dir, threshold, DE_dir, output_file):
+def build_splicing_network(Target_dir, threshold, DE_dir, output_file):
     G = nx.DiGraph()
 
-    for file_name in os.listdir(TARGET_dir):
+    for file_name in os.listdir(Target_dir):
         cell_line, rbp = file_name.split('_')[:2]
         print(cell_line, rbp)
 
-        target_path = os.path.join(TARGET_dir, file_name, file_name + '_target.txt')
+        target_path = os.path.join(Target_dir, file_name, file_name + '_target.txt')
         target_data = pd.read_csv(target_path, sep='\t', low_memory=False, header=0)
         target_data['P(T|S, M, C)'] = pd.to_numeric(target_data['P(T|S, M, C)'])
 
