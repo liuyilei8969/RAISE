@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
   { name="liuyilei8969", email="ylliu8969@gmail.com" },
 ]
-description = "SPlicing factOr activity calculatioN based on tarGet nEtwork"
+description = "Splicing-factor activity Prediction based On Network and Global splicing Events"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
