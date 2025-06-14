@@ -71,4 +71,4 @@ if __name__ == "__main__":
     parser.add_argument("--output", type=str, required=True, help="Output file path for the network graph (GEXF format)")
 
     args = parser.parse_args()
-    build_splicing_network(args.Target_dir, args.threshold, args.DE, args.output)
+    build_splicing_network(args.Target_dir, args.threshold, args.DE_dir, args.output)
