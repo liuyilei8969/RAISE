@@ -4,7 +4,7 @@ python src/SPONGE/find_target.py \
 --ref_genome REF_GENOME \
 --rbp_motif data/Motif.txt \
 --cell_line HepG2 \
---rbp_name QKI \
+--rbp QKI \
 --output test/findtarget/output \
 --max_iter 1000 \
 --tol 1e-4
