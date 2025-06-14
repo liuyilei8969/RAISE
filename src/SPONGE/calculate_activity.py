@@ -59,4 +59,4 @@ if __name__ == '__main__':
     parser.add_argument('--output', required=True, help='Output file for inferred RBP activity scores')
 
     args = parser.parse_args()
-    infer_rbp_activity(args.diffAS, args.gexf, args.out)
+    infer_rbp_activity(args.diffAS, args.network, args.out)
