@@ -1,18 +1,18 @@
-#SPONGE
-##Splicing-factor activity Prediction based On Network and Global splicing Events
+# SPONGE
+## Splicing-factor activity Prediction based On Network and Global splicing Events
 
 SPONGE is a computational pipeline for identifying the activity of splicing factors (SFs). It integrates CLIP-seq peaks, motifs, and alternative splicing (AS) data to construct a splicing regulatory network, and infers SF activities using regression modeling.
 
 
-###Installation
+### Installation
 
-####Option 1. Install SPONGE through pip [recommended]
+#### Option 1. Install SPONGE through pip [recommended]
 ```bash
 conda create -n SPONGE python=3.8
 pip install SPONGE
 ```
 
-####Option 2. Local installation
+#### Option 2. Local installation
 ```bash
 conda create -n SPONGE python=3.7
 git clone https://github.com/liuyilei8969/SPONGE.git
@@ -21,7 +21,7 @@ pip install .
 ```
 
 
-###Usage
+### Usage
 1. Identify targets of a splicing factor
 bash
 复制
