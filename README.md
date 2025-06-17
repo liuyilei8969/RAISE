@@ -2,6 +2,8 @@
 ## Splicing-factor activity Prediction based On Network and Global splicing Events
 
 SPONGE is a computational pipeline for identifying the activity of splicing factors (SFs). It integrates CLIP-seq peaks, motifs, and alternative splicing (AS) data to construct a splicing regulatory network, and infers SF activities using regression modeling.
+![image](https://github.com/user-attachments/assets/49c5a43b-abe2-4a6a-9425-f6ca80f76c04)
+
 
 
 ### Installation
