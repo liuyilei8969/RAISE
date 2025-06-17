@@ -77,7 +77,7 @@ options:
 
 
 ### Example & Test
-Examples are provided in the test/ directory: https://github.com/liuyilei8969/SPONGE/tree/main/test
+Examples are provided in the test/ directory: https://github.com/liuyilei8969/SPONGE/tree/main/test     
 Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/SPONGE/tree/main/data
 
 
