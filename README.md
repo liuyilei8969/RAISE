@@ -24,7 +24,7 @@ pip install .
 
 
 ### Usage
-1. Identify targets of an RBP
+#### 1. Identify targets of an RBP
 ```bash
 usage: find_target.py [-h] --rmats RMATS --clip_peaks CLIP_PEAKS --ref_genome REF_GENOME --rbp_motif RBP_MOTIF --cell_line CELL_LINE --rbp RBP --output
                       OUTPUT [--max_iter MAX_ITER] [--tol TOL]
@@ -47,7 +47,7 @@ options:
   --max_iter MAX_ITER   Maximum number of EM iterations.
   --tol TOL             Convergence threshold for EM.
 ```
-2. Construct RBP-AS network
+#### 2. Construct RBP-AS network
 ```bash
 usage: construct_network.py [-h] --Target_dir TARGET_DIR [--threshold THRESHOLD] --DE_dir DE_DIR --output OUTPUT
 
@@ -62,7 +62,7 @@ options:
   --DE_dir DE_DIR       Directory containing RBP expression change files
   --output OUTPUT       Path to output GEXF file for the constructed network
 ```
-3. Infer RBP activity
+#### 3. Infer RBP activity
 ```bash
 usage: calculate_activity.py [-h] --diffAS DIFFAS --network NETWORK --output OUTPUT
 
