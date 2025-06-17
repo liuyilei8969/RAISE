@@ -1,37 +1,27 @@
-SPONGE
-Splicing-factor activity Prediction based On Network and Global splicing Events
+#SPONGE
+##Splicing-factor activity Prediction based On Network and Global splicing Events
 
-SPONGE is a computational pipeline for identifying the activity of splicing factors (SFs) based on their binding information and large-scale splicing changes, especially in perturbation conditions (e.g., knockdown or overexpression). It integrates CLIP-seq peaks, motif matches, and alternative splicing (AS) data to construct a splicing regulatory network, and infers SF activities using regression modeling.
+SPONGE is a computational pipeline for identifying the activity of splicing factors (SFs). It integrates CLIP-seq peaks, motifs, and alternative splicing (AS) data to construct a splicing regulatory network, and infers SF activities using regression modeling.
 
-📦 Project Structure
-bash
-复制
-编辑
-SPONGE/
-├── src/                    # Source code
-│   └── SPONGE/
-│       ├── findtarget.py           # Identify SF-target splicing events
-│       ├── construct_network.py    # Build SF-to-AS event regulatory network
-│       └── calculate_activity.py   # Infer SF activity using regression
-├── test/                   # Test inputs and example scripts
-│   └── findtarget/
-│       └── input/          # Example rMATS, CLIP-seq, motif input files
-├── data/                   # Motif definitions or annotation files
-├── README.md               # This file
-├── LICENSE                 # License file
-└── pyproject.toml          # Python project metadata
-🚀 Installation
-You can install the dependencies manually or use a virtual environment.
 
-bash
-复制
-编辑
+###Installation
+
+####Option 1. Install SPONGE through pip [recommended]
+```bash
+conda create -n SPONGE python=3.8
+pip install SPONGE
+```
+
+####Option 2. Local installation
+```bash
+conda create -n SPONGE python=3.7
 git clone https://github.com/liuyilei8969/SPONGE.git
 cd SPONGE
-pip install -r requirements.txt
-(Optional) If you use pyproject.toml, install via hatch or poetry.
+pip install .
+```
 
-⚙️ Usage
+
+###Usage
 1. Identify targets of a splicing factor
 bash
 复制
