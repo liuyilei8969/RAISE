@@ -77,15 +77,10 @@ options:
 
 
 ### Example & Test
-Example input files are provided in the test/ directory:
+Examples are provided in the test/ directory: https://github.com/liuyilei8969/SPONGE/tree/main/test
+Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/SPONGE/tree/main/data
 
-rMATS output (splicing events)
 
-CLIP-seq peak files
-
-Motif files
-
-Expression values (for network weighting)
 
 ### Requirements
 Python >= 3.8
