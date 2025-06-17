@@ -74,7 +74,9 @@ options:
   --network NETWORK  Path to the splicing regulatory network
   --output OUTPUT    Output file for inferred RBP activity scores
 ```
-🧪 Test Data
+
+
+### Example & Test
 Example input files are provided in the test/ directory:
 
 rMATS output (splicing events)
@@ -85,14 +87,8 @@ Motif files
 
 Expression values (for network weighting)
 
-📘 Requirements
+### Requirements
 Python >= 3.8
 
 Packages: pandas, numpy, networkx, scikit-learn, argparse
 
-You can install them with:
-
-bash
-复制
-编辑
-pip install pandas numpy networkx scikit-learn
