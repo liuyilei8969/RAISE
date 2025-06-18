@@ -6,7 +6,7 @@ import argparse
 
 def infer_rbp_activity(diff_as_path, network_path, output_path):
     # Step 1: Read differential splicing results from rMATS
-    ds = pd.read_csv(diff_as_path, sep='\t')
+    ds = pd.read_csv(diff_as_path, sep='\t',dtype={'exonStart_0base': str,'exonEnd': str})
     ds['IncLevelDifference'] = ds['IncLevelDifference'] * 100  
     ds['name'] = (ds['geneSymbol'] + '_' + ds['exonStart_0base'].astype(str) + '_' + ds['exonEnd'].astype(str))
     
