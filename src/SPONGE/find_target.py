@@ -8,6 +8,9 @@ from Bio import SeqIO
 import pybedtools
 from scipy.stats import beta
 from scipy.special import logsumexp
+from plot_target import plot_dpsi_with_alpha_beta
+from plot_target import plot_motif_param
+from plot_target import plot_clip_param
 
 
 def parse_args():
@@ -249,6 +252,9 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     param_file = os.path.join(output_dir, basename + '_param.txt')
     target_file = os.path.join(output_dir, basename + '_target.txt')
+    dpsi_plot = os.path.join(output_dir, basename + '_dPSI.png')
+    motif_plot = os.path.join(output_dir, basename + '_Motif.png')
+    clip_plot = os.path.join(output_dir, basename + '_CLIP.png')
 
     try:
         with open(param_file, "w") as fout:
@@ -259,6 +265,27 @@ def main():
         print(f"Results saved to {output_dir}")
     except Exception as e:
         sys.exit(f"Error saving output: {e}")
+
+    plot_dpsi_with_alpha_beta(df=features_df,
+                              alpha1=params['alpha1'], 
+                              beta1=params['beta1'], 
+                              alpha0=params['alpha0'], 
+                              beta0=params['beta0'], 
+                              threshold=0.6, 
+                              output_file=dpsi_plot)
+    
+    plot_motif_param(df=features_df,
+                     p1=params['p1'],
+                     p0=params['p0'],
+                     threshold=0.6,
+                     output_file=motif_plot)
+    
+    plot_clip_param(df=features_df,
+                     q1=params['q1'],
+                     q0=params['q0'],
+                     threshold=0.6,
+                     output_file=clip_plot)
+    
 
 
 if __name__ == "__main__":
