@@ -2,7 +2,7 @@ import argparse
 from SPONGE import find_target, construct_network, calculate_activity
 
 def main():
-    parser = argparse.ArgumentParser(description="SPONGE: Splicing-factor activity Prediction based On Network and Global splicing Events")
+    parser = argparse.ArgumentParser(description="RAISE: RBP Activity Inference from Splicing Events")
     subparsers = parser.add_subparsers(dest='command', required=True)
 
     # Subcommand: find_target
