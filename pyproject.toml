@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "SPONGE"
+name = "RAISE"
 version = "0.1.0"  
 authors = [
   { name="liuyilei8969", email="ylliu8969@gmail.com" },
 ]
-description = "Splicing-factor activity Prediction based On Network and Global splicing Events"
+description = "RBP Activity Inference from Splicing Events"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -19,8 +19,8 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 [project.urls]
-Homepage = "https://gitee.com/liuyilei8969/SPONGE/"
-Issues = "https://github.com/liuyilei8969/SPONGE/issues"
+Homepage = "https://gitee.com/liuyilei8969/RAISE/"
+Issues = "https://github.com/liuyilei8969/RAISE/issues"
 
 [tool.hatch.metadata]
 include = ["src"]
