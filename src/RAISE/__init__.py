@@ -1,5 +1,5 @@
 """
-SPONGE: Splicing-factor activity Prediction based On Network and Global splicing Events
+RAISE: RBP Activity Inference from Splicing Events
 
 This module contains core functions for:
 - Finding splicing targets
