@@ -1,5 +1,5 @@
 import argparse
-from SPONGE import find_target, construct_network, calculate_activity
+from RAISE import find_target, construct_network, calculate_activity
 
 def main():
     parser = argparse.ArgumentParser(description="RAISE: RBP Activity Inference from Splicing Events")
