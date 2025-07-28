@@ -1,6 +1,5 @@
-# SPONGE
-## Splicing-factor activity Prediction based On Network and Global splicing Events
-
+# RAISE
+## RBP Activity Inference from Splicing Events
 SPONGE is a computational pipeline for identifying the activity of splicing factors (SFs). It integrates CLIP-seq peaks, motifs, and alternative splicing (AS) data to construct a splicing regulatory network, and infers SF activities using regression modeling.
 ![image](https://github.com/user-attachments/assets/49c5a43b-abe2-4a6a-9425-f6ca80f76c04)
 
@@ -8,17 +7,17 @@ SPONGE is a computational pipeline for identifying the activity of splicing fact
 
 ### Installation
 
-#### Option 1. Install SPONGE through pip [recommended]
+#### Option 1. Install RAISE through pip [recommended]
 ```bash
-conda create -n SPONGE python=3.8
-pip install SPONGE
+conda create -n RAISE python=3.8
+pip install RAISE
 ```
 
 #### Option 2. Local installation
 ```bash
-conda create -n SPONGE python=3.7
-git clone https://github.com/liuyilei8969/SPONGE.git
-cd SPONGE
+conda create -n RAISE python=3.7
+git clone https://github.com/liuyilei8969/RAISE.git
+cd RAISE
 pip install .
 ```
 
@@ -71,8 +70,8 @@ options:
 
 
 ### Example & Test
-Examples are provided in the test/ directory: https://github.com/liuyilei8969/SPONGE/tree/main/test     
-Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/SPONGE/tree/main/data   
+Examples are provided in the test/ directory: https://github.com/liuyilei8969/RAISE/tree/main/test     
+Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/RAISE/tree/main/data   
    
 Note: All differential splicing results should be provided in the rMATS format. For users' convenience, we also provide scripts to either convert data into this format or perform a simple differential splicing analysis using a limma test.
 
