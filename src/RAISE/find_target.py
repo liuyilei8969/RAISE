@@ -215,13 +215,17 @@ def main():
     print("Generated motif features.")
 
     # Step 6: Intersect with CLIP peaks
-    clip_minus = pybedtools.BedTool(clip_intervals_minus).intersect(clip_peaks, u=True, stream=True)
-    clip_exon = pybedtools.BedTool(clip_intervals_exon).intersect(clip_peaks, u=True, stream=True)
-    clip_plus = pybedtools.BedTool(clip_intervals_plus).intersect(clip_peaks, u=True, stream=True)
+    clip_minus = pybedtools.BedTool(clip_intervals_minus).intersect(clip_peaks, u = True)
+    clip_minus_names = set(iv.name for iv in clip_minus)
+    clip_exon = pybedtools.BedTool(clip_intervals_exon).intersect(clip_peaks, u = True)
+    clip_exon_names = set(iv.name for iv in clip_exon)
+    clip_plus = pybedtools.BedTool(clip_intervals_plus).intersect(clip_peaks, u = True)
+    clip_plus_names = set(iv.name for iv in clip_plus)
 
-    C_minus = [1 if iv.name in {iv.name for iv in clip_minus} else 0 for iv in clip_intervals_minus]
-    C_0 = [1 if iv.name in {iv.name for iv in clip_exon} else 0 for iv in clip_intervals_exon]
-    C_plus = [1 if iv.name in {iv.name for iv in clip_plus} else 0 for iv in clip_intervals_plus]
+
+    C_minus = [1 if iv.name in clip_minus_names else 0 for iv in clip_intervals_minus]
+    C_0 = [1 if iv.name in clip_exon_names else 0 for iv in clip_intervals_exon]
+    C_plus = [1 if iv.name in clip_plus_names else 0 for iv in clip_intervals_plus]
     print("Generated CLIP features.")
 
     # Step 7: Assign values
