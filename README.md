@@ -1,7 +1,8 @@
 # RAISE
 ## RBP Activity Inference from Splicing Events
 RAISE is a computational pipeline for identifying the activity of RNA-binding proteins (RBPs). It integrates CLIP-seq peaks, motifs, and alternative splicing (AS) data to construct a splicing regulatory network, and infers RBP activities using regression modeling.
-<img width="1069" height="1252" alt="image" src="https://github.com/user-attachments/assets/ed96a82f-3cd8-4a4a-ae90-24e3fc3d3b19" />
+<img width="1069" height="1252" alt="image" src="https://github.com/user-attachments/assets/5e26d81a-fa07-4f7e-bd9d-556d5479ed43" />
+
 
 
 
