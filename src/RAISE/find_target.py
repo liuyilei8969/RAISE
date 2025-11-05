@@ -8,9 +8,9 @@ from Bio import SeqIO
 import pybedtools
 from scipy.stats import beta
 from scipy.special import logsumexp
-from plot_target import plot_dpsi_with_alpha_beta
-from plot_target import plot_motif_param
-from plot_target import plot_clip_param
+from RAISE.plot_target import plot_dpsi_with_alpha_beta
+from RAISE.plot_target import plot_motif_param
+from RAISE.plot_target import plot_clip_param
 
 
 def parse_args():
