@@ -19,7 +19,7 @@ pip install RAISE-RBP
 
 #### Option 2. Local installation
 ```bash
-conda create -n RAISE python=3.7
+conda create -n RAISE python=3.8
 git clone https://github.com/liuyilei8969/RAISE.git
 cd RAISE
 pip install .
