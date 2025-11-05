@@ -14,7 +14,7 @@ RAISE is a computational pipeline for identifying the activity of RNA-binding pr
 #### Option 1. Install RAISE through pip [recommended]
 ```bash
 conda create -n RAISE python=3.8
-pip install RAISE
+pip install RAISE-RBP
 ```
 
 #### Option 2. Local installation
