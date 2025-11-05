@@ -32,7 +32,7 @@ pip install .
 usage: find_target.py [-h] --rmats RMATS --clip_peaks CLIP_PEAKS --ref_genome REF_GENOME --rbp_motif RBP_MOTIF --cell_line CELL_LINE --rbp RBP --output
                       OUTPUT [--max_iter MAX_ITER] [--tol TOL]
 
-EM algorithm for inferring RBP targets using motif, CLIP peaks, and PSI changes.
+Inferring RBP targets using motif, CLIP peaks, and PSI changes.
 
 options:
   -h, --help                             show this help message and exit
