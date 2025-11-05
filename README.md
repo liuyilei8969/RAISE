@@ -76,6 +76,7 @@ options:
 ### Example & Test
 Examples are provided in the test/ directory: https://github.com/liuyilei8969/RAISE/tree/main/test     
 Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/RAISE/tree/main/data   
+We also construct a database RAISEDB for RBP splicing target search: https://liuyilei8969.github.io/RAISEDB/
    
 Note: All differential splicing results should be provided in the rMATS format. For users' convenience, we also provide scripts to either convert data into this format or perform a simple differential splicing analysis using a limma test.
 
