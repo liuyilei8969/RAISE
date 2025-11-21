@@ -46,7 +46,7 @@ options:
   --max_iter MAX_ITER                    Maximum number of EM iterations.
   --tol TOL                              Convergence threshold for EM.
 ```
-For a single RBP, it requires approximately 20 ms of CPU time on a modern desktop or server CPU. The actual performance may vary depending on factors such as I/O speed, memory speed, and CPU capabilities.  
+For a single RBP, it requires approximately 20 ms of CPU time on a modern desktop or server CPU.    
 
 #### 2. Construct RBP-AS network
 ```bash
