@@ -74,7 +74,7 @@ options:
   --network NETWORK                      Path to the splicing regulatory network
   --output OUTPUT                        Output file for inferred RBP activity scores
 ```
-For a single RBP, it requires approximately 10 ms of CPU time on a modern desktop or server CPU.  
+It requires approximately 10 ms of CPU time on a modern desktop or server CPU.  
 
 
 ### Example & Test
