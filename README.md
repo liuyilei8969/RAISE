@@ -9,7 +9,8 @@ RAISE is a computational pipeline for identifying the activity of RNA-binding pr
 
 
 
-### Installation
+### Installation   
+RAISE is compatible with most Linux operating systems and requires a Python 3.8+ environment.
 
 #### Option 1. Install RAISE through pip [recommended]
 ```bash
@@ -46,6 +47,8 @@ options:
   --max_iter MAX_ITER                    Maximum number of EM iterations.
   --tol TOL                              Convergence threshold for EM.
 ```
+For a single RBP, it requires approximately 20 ms of CPU time on a modern desktop or server CPU.  
+
 #### 2. Construct RBP-AS network
 ```bash
 usage: construct_network.py [-h] --Target_dir TARGET_DIR [--threshold THRESHOLD] --DE_dir DE_DIR --output OUTPUT
@@ -71,6 +74,7 @@ options:
   --network NETWORK                      Path to the splicing regulatory network
   --output OUTPUT                        Output file for inferred RBP activity scores
 ```
+For a single RBP, it requires approximately 10 ms of CPU time on a modern desktop or server CPU.  
 
 
 ### Example & Test
