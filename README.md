@@ -35,8 +35,8 @@ For users who prefer not to install Python dependencies, precompiled versions of
    - macOS: `RAISE-0.1.3-macOS.app.zip`
      
 2. Run the application:  
-   - **Windows:** double-click `RAISE.exe`  
-   - **macOS:** double-click `RAISE.app` (may require waiting a few seconds for the GUI to launch)
+   - **Windows:** double-click `RAISE-0.1.3-Windows.exe`  
+   - **macOS:** double-click `RAISE-0.1.3-macOS.app.zip` (may require waiting a few seconds for the GUI to launch)
 
 3. Upload your differential splicing file and click **Calculate Activity** to run the analysis.
 
