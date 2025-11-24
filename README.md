@@ -87,5 +87,5 @@ Note: All differential splicing results should be provided in the rMATS format. 
 ### Requirements
 Operating system: Linux  
 Python >= 3.8  
-Packages: pandas, numpy, networkx, scikit-learn, argparse
+Packages: pandas, numpy, networkx, scikit-learn, argparse, Bio
 
