@@ -25,6 +25,21 @@ cd RAISE
 pip install .
 ```
 
+#### Option 3. Download precompiled binaries (Windows / macOS)
+
+For users who prefer not to install Python dependencies, precompiled versions of RAISE are available for **Windows** and **macOS**.  
+> ⚠ Currently, only the **default splicing regulatory network** is supported when using these binaries.
+
+1. Download the appropriate binary from the [Releases page](https://github.com/liuyilei8969/RAISE/releases).
+   - Windows: `RAISE.exe`
+   - macOS: `RAISE.app`
+     
+2. Run the application:  
+   - **Windows:** double-click `RAISE.exe`  
+   - **macOS:** double-click `RAISE.app` (may require waiting a few seconds for the GUI to launch)
+
+3. Upload your differential splicing file and click **Calculate Activity** to run the analysis.
+
 
 ### Usage
 #### 1. Identify targets of an RBP
