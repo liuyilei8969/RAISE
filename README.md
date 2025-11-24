@@ -32,7 +32,7 @@ For users who prefer not to install Python dependencies, precompiled versions of
 
 1. Download the appropriate binary from the [Releases page](https://github.com/liuyilei8969/RAISE/releases).
    - Windows: `RAISE.exe`
-   - macOS: `RAISE.app`
+   - macOS: `RAISE-0.1.3-macOS.app.zip`
      
 2. Run the application:  
    - **Windows:** double-click `RAISE.exe`  
