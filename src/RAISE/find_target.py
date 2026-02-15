@@ -26,6 +26,9 @@ def parse_args():
     parser.add_argument('--output', type=str, required=True, help="Output directory.")
     parser.add_argument('--max_iter', type=int, default=1000, help="Maximum number of EM iterations.")
     parser.add_argument('--tol', type=float, default=1e-4, help="Convergence threshold for EM.")
+    parser.add_argument('--use_motif', type=str2bool, default=True, help='Use motif features in EM (True/False, default: True)')
+    parser.add_argument('--use_clip', type=str2bool, default=True, help='Use CLIP features in EM (True/False, default: True)')
+
     return parser.parse_args()
 
 
@@ -73,7 +76,7 @@ def calculate_mean(value):
     return np.mean([float(x) for x in value.split(',')])
 
 
-def run_em(features_df, max_iter=1000, tol=1e-4):
+def run_em(features_df, max_iter=1000, tol=1e-4, use_clip=True, use_motif=True):
     """
     Run EM algorithm to estimate parameters and compute posterior P(T=1 | data).
     """
@@ -110,11 +113,20 @@ def run_em(features_df, max_iter=1000, tol=1e-4):
         # M-step
         pi1_new = np.mean(gamma)
         pi0_new = 1 - pi1_new
-        p1_new = np.sum(gamma[:, None] * M, axis=0) / (np.sum(gamma) + 1e-10)
-        p0_new = np.sum((1 - gamma)[:, None] * M, axis=0) / (np.sum(1 - gamma) + 1e-10)
-        q1_new = np.sum(gamma[:, None] * C, axis=0) / (np.sum(gamma) + 1e-10)
-        q0_new = np.sum((1 - gamma)[:, None] * C, axis=0) / (np.sum(1 - gamma) + 1e-10)
+        # Update motif parameters
+        if use_motif:
+            p1_new = np.sum(gamma[:, None] * M, axis=0) / (np.sum(gamma) + 1e-10)
+            p0_new = np.sum((1 - gamma)[:, None] * M, axis=0) / (np.sum(1 - gamma) + 1e-10)
+        else:
+            p1_new, p0_new = p1, p0  # 保持原值
 
+        # Update CLIP parameters
+        if use_clip:
+            q1_new = np.sum(gamma[:, None] * C, axis=0) / (np.sum(gamma) + 1e-10)
+            q0_new = np.sum((1 - gamma)[:, None] * C, axis=0) / (np.sum(1 - gamma) + 1e-10)
+        else:
+            q1_new, q0_new = q1, q0
+            
         # Beta distribution parameters
         if np.sum(gamma) > 0:
             mu1 = np.sum(gamma * PSI) / (np.sum(gamma) + 1e-10)
@@ -248,7 +260,7 @@ def main():
         "S": "PSI"
     })
 
-    features_df, params = run_em(features_df, max_iter=args.max_iter, tol=args.tol)
+    features_df, params = run_em(features_df, max_iter=args.max_iter, tol=args.tol, use_motif=args.use_motif, use_clip=args.use_clip)
 
     # Step 9: Save results
     basename = f"{args.cell_line}_{args.rbp}"
