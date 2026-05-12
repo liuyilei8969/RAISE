@@ -53,11 +53,41 @@ def infer_rbp_activity(diff_as_path, network_path, output_path):
     for rbp, score in ranked_rbps:
         print(f"{rbp}: {score:.4f}")
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Infer RBP activity from a splicing regulatory network using ridge regression.")
-    parser.add_argument('--diffAS', required=True, help='Path to the rMATS differential splicing results file')
-    parser.add_argument('--network', required=True, help='Path to the splicing regulatory network')
-    parser.add_argument('--output', required=True, help='Output file for inferred RBP activity scores')
+def main():
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Infer RBP activity from a splicing regulatory "
+            "network using ridge regression."
+        )
+    )
+
+    parser.add_argument(
+        '--diffAS',
+        required=True,
+        help='Path to the rMATS differential splicing results file'
+    )
+
+    parser.add_argument(
+        '--network',
+        required=True,
+        help='Path to the splicing regulatory network'
+    )
+
+    parser.add_argument(
+        '--output',
+        required=True,
+        help='Output file for inferred RBP activity scores'
+    )
 
     args = parser.parse_args()
-    infer_rbp_activity(args.diffAS, args.network, args.output)
+
+    infer_rbp_activity(
+        args.diffAS,
+        args.network,
+        args.output
+    )
+
+
+if __name__ == '__main__':
+    main()
