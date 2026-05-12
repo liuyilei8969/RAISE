@@ -14,12 +14,14 @@ RAISE is compatible with most Linux operating systems and requires a Python 3.8+
 #### Option 1. Install RAISE through pip [recommended]
 ```bash
 conda create -n RAISE python=3.8
+conda activate RAISE   
 pip install RAISE-RBP
 ```
 
 #### Option 2. Local installation
 ```bash
 conda create -n RAISE python=3.8
+conda activate RAISE  
 git clone https://github.com/liuyilei8969/RAISE.git
 cd RAISE
 pip install .
