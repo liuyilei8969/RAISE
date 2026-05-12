@@ -48,7 +48,7 @@ For users who prefer not to install Python dependencies, precompiled versions of
 ### Usage
 #### 1. Identify targets of an RBP
 ```bash
-usage: find_target.py [-h] --rmats RMATS --clip_peaks CLIP_PEAKS --ref_genome REF_GENOME --rbp_motif RBP_MOTIF --cell_line CELL_LINE --rbp RBP --output
+usage: find_target [-h] --rmats RMATS --clip_peaks CLIP_PEAKS --ref_genome REF_GENOME --rbp_motif RBP_MOTIF --cell_line CELL_LINE --rbp RBP --output
                       OUTPUT [--max_iter MAX_ITER] [--tol TOL] [--use_motif True/False] [--use_clip True/False]
 
 Infer RBP targets using motif, CLIP peaks, and PSI changes.
@@ -71,7 +71,7 @@ For a single RBP, it requires approximately 20 ms of CPU time on a modern desk
 
 #### 2. Construct RBP-AS network
 ```bash
-usage: construct_network.py [-h] --Target_dir TARGET_DIR [--threshold THRESHOLD] --DE_dir DE_DIR --output OUTPUT
+usage: construct_network [-h] --Target_dir TARGET_DIR [--threshold THRESHOLD] --DE_dir DE_DIR --output OUTPUT
 
 Build a splicing regulatory network from target predictions and RBP expression changes.
 
@@ -84,7 +84,7 @@ options:
 ```
 #### 3. Infer RBP activity
 ```bash
-usage: calculate_activity.py [-h] --diffAS DIFFAS --network NETWORK --output OUTPUT
+usage: calculate_activity [-h] --diffAS DIFFAS --network NETWORK --output OUTPUT
 
 Infer RBP activity from a splicing regulatory network using ridge regression.
 
