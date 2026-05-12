@@ -79,12 +79,52 @@ def build_splicing_network(Target_dir, threshold, DE_dir, output_file):
     print(f"✅ Splicing regulatory network saved to: {output_file}")
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build a splicing regulatory network from target predictions and RBP expression changes.")
-    parser.add_argument("--Target_dir", type=str, required=True, help="Directory containing RBP target result folders")
-    parser.add_argument("--threshold", type=float, default=0.6, help="Minimum conditional probability P(T|S,M,C) to include interaction (default: 0.6)")
-    parser.add_argument("--DE_dir", type=str, required=True, help="Directory containing RBP expression change files")
-    parser.add_argument("--output", type=str, required=True, help="Path to output GEXF file for the constructed network")
+def main():
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Build a splicing regulatory network from "
+            "target predictions and RBP expression changes."
+        )
+    )
+
+    parser.add_argument(
+        "--Target_dir",
+        type=str,
+        required=True,
+        help="Directory containing RBP target result folders"
+    )
+
+    parser.add_argument(
+        "--threshold",
+        type=float,
+        default=0.6,
+        help="Minimum conditional probability threshold"
+    )
+
+    parser.add_argument(
+        "--DE_dir",
+        type=str,
+        required=True,
+        help="Directory containing RBP expression files"
+    )
+
+    parser.add_argument(
+        "--output",
+        type=str,
+        required=True,
+        help="Output GEXF file"
+    )
 
     args = parser.parse_args()
-    build_splicing_network(args.Target_dir, args.threshold, args.DE_dir, args.output)
+
+    build_splicing_network(
+        args.Target_dir,
+        args.threshold,
+        args.DE_dir,
+        args.output
+    )
+
+
+if __name__ == "__main__":
+    main()
