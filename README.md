@@ -104,13 +104,13 @@ We also construct a database RAISEDB for RBP splicing target search: https://liu
    
 Note: All differential splicing results should be provided in the rMATS format. For users' convenience, we also provide scripts to either convert data into this format or perform a simple differential splicing analysis using a limma test.   
 
-### Citation  
-Please kindly cite our Nature Communications paper if RAISE helps your scientific research:
-Liu, Y., Lo, Y., Zheng, Y. et al. RAISE quantifies RNA binding protein activity via transcriptomic profiling. Nat Commun (2026). https://doi.org/10.1038/s41467-026-77620-y
-
 
 ### Requirements
 Operating system: Linux  
 Python >= 3.8  
-Packages: pandas, numpy, networkx, scikit-learn, argparse, Bio, pybedtools
+Packages: pandas, numpy, networkx, scikit-learn, argparse, Bio, pybedtools  
+  
+### Citation  
+Please kindly cite our Nature Communications paper if RAISE helps your scientific research:
+Liu, Y., Lo, Y., Zheng, Y. et al. RAISE quantifies RNA binding protein activity via transcriptomic profiling. Nat Commun (2026). https://doi.org/10.1038/s41467-026-77620-y
 
