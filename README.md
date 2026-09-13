@@ -102,7 +102,11 @@ Examples are provided in the test/ directory: https://github.com/liuyilei8969/RA
 Data are provided in the data/ directory for users' convenience: https://github.com/liuyilei8969/RAISE/tree/main/data   
 We also construct a database RAISEDB for RBP splicing target search: https://liuyilei8969.github.io/RAISEDB/
    
-Note: All differential splicing results should be provided in the rMATS format. For users' convenience, we also provide scripts to either convert data into this format or perform a simple differential splicing analysis using a limma test.
+Note: All differential splicing results should be provided in the rMATS format. For users' convenience, we also provide scripts to either convert data into this format or perform a simple differential splicing analysis using a limma test.   
+
+### Citation  
+Please kindly cite our Nature Communications paper if RAISE helps your scientific research:
+Liu, Y., Lo, Y., Zheng, Y. et al. RAISE quantifies RNA binding protein activity via transcriptomic profiling. Nat Commun (2026). https://doi.org/10.1038/s41467-026-77620-y
 
 
 ### Requirements
